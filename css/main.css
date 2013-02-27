@@ -1,0 +1,53 @@
+/* -------- HOSTing styles -------- */
+
+/* Reset + universal */
+* {border: 0px;}
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, img, b, i, ol, ul, li, fieldset, form, input, dl, dt, dd {padding: 0; margin: 0; border: 0; font-weight: lighter; font-weight: 300; vertical-align: baseline; word-wrap: break-word;}
+ul {list-style-type: none;}
+.clr {clear: both;}
+.clearfix:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+.clearfix {display: block;}
+html[xmlns] .clearfix {display: block;}
+* html .clearfix {height: 1%;}
+img {-ms-interpolation-mode:bicubic}
+a:focus {outline: none;}
+.dim {position: absolute; width: 100%; height: 100%; overflow: hidden; background-color: #ffffff; z-index: 9999;}
+.noSelect {-webkit-user-select: none; -moz-user-select: none; -khtml-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none;}
+
+
+/* Site-wide + special */
+::selection {color: #ffffff; background: #94aabe;}
+::-moz-selection {color: #ffffff; background: #94aabe;}
+
+html {height: 100%;}
+body {overflow: auto; height: 100%; min-width: 950px; min-height: 600px; background-color: #000000; color: #d6e5ec; line-height: 150%; font-family: 'Roboto Condensed', Helvetica, sans-serif;}
+
+b, strong, h1, h2, h3, h4, h5, h6 {font-weight: normal; font-weight: 400;}
+i, em {font-style: normal;}
+
+a:link, a:visited {color: #eec167;}
+a:hover {color: #ffdd98; text-shadow: 0px -4px 8px #a98e57;}
+
+.wrap404 {width: 800px; margin: 0 auto; text-align: center;}
+.wrap404 h2 {padding: 40px 0 30px 0; font-size: 240%;}
+.wrap404 p {font-size: 130%; line-height: 140%;}
+
+.copy {padding: 0 10px 20px 10px; font-size: 100%; color: #657379; text-align: center; opacity: 0.50; -moz-opacity: 0.850; -khtml-opacity: 0.50; filter: alpha(opacity=50);}
+
+#counters {position: fixed; bottom: -160px; left: 10px; z-index: 1005; width: 140px; height: 180px; text-align: right; background-image:url('/images/counters.png'); background-position: right top; background-repeat: no-repeat;}
+.counters_list {padding-top: 30px; opacity: 0.40; -moz-opacity: 0.40; -khtml-opacity: 0.40; filter: alpha(opacity=40);}
+.counters_list p {padding: 0; margin: 0; padding-bottom: 6px; font-size: 11px; color: #6b767b;}
+#counters:hover {bottom: 0;}
+
+.fancybox_img img {display: none !important;}
+
+.mainWrap {position: relative; top: 0; left: 0; width: 100%; min-width: 950px; max-width: 1700px; min-height: 100px; overflow: hidden; z-index: 1; margin: 0 auto; text-align: center;}
+.mainBG {display: block; width: 100%;}
+.mainOverlay {position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 2;}
+
+
+
+
+
+
+
