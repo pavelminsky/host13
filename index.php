@@ -110,9 +110,9 @@ $("#menu7").delay(300).animate({top:"0px",opacity:1},1000);
 </div-->
 
 
+
 <style type="text/css">
-.bg_wrap {position: absolute; top: 20px; left: 0; width: 100%; min-width: 970px; min-height: 900px; overflow: hidden; z-index: 1; margin: 0 auto; text-align: center; background-image: url('/images/bg_main.jpg'); background-position: center top; background-repeat: no-repeat; background-size: contain;
--ms-behavior: url(/backgroundsize.min.htc);}
+.bg_wrap {position: absolute; top: 20px; left: 0; width: 100%; min-width: 970px; min-height: 900px; overflow: hidden; z-index: 1; margin: 0 auto; text-align: center; background-image: url('/images/bg_main.jpg'); background-position: center top; background-repeat: no-repeat; background-size: contain;}
 
 /*.heroes_wrap {position: absolute; top: 0; left: 0; width: 100%; min-width: 970px; max-width: 1600px; min-height: 900px; overflow: hidden; z-index: 2; margin: 0 auto; text-align: center; background-image: url('/images/heroesBG.png'); background-position: center top; background-repeat: no-repeat; background-size: contain;}*/
 
@@ -157,6 +157,18 @@ $("#menu7").delay(300).animate({top:"0px",opacity:1},1000);
 	</p>
 	</div>
 </div>
+
+
+<!-- background-size fix for IE8 -->
+<script src="/js/jquery.backgroundSize.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function() {
+$(".bg_wrap").css({backgroundSize: "contain"});
+$(".testtitle").css({backgroundSize: "contain"});
+$(".testglow").css({backgroundSize: "contain"});
+});
+</script>
+<!--[if lte IE 8]><style type="text/css">.testglow {display: none !important;}</style><![endif]-->
 
 <!-- Fancybox -->
 <script type="text/javascript" src="/js/jquery.fancybox.js?v=2.1.1"></script>
