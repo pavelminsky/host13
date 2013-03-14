@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head><title>Название — Дата</title>
+<head><title>&laquo;Гостья&raquo; — От автора саги &laquo;Сумерки&raquo; — В кино с 28 марта</title>
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -37,12 +37,6 @@
 jQuery(function($) {
 $('.dim').fadeOut(500);
 });
-
-//jQuery(function($) {
-//$("#glow").animate({opacity:0.5},2000);
-//$("#glow").delay(500);
-//$("#glow").animate({opacity:1.0},2000);
-//});
 </script>
 
 
@@ -50,21 +44,21 @@ $('.dim').fadeOut(500);
 $(document).ready(function(){
 var $glowingLogo = $("#glow"),cycle;
 (cycle = function() {
-$glowingLogo.animate({opacity:0.5},2000).delay(500).animate({opacity:1.0},2000, cycle);
+$glowingLogo.animate({opacity:0.4},4000).delay(500).animate({opacity:1.0},4000, cycle);
 })();
 });
 </script>
 
 <script type="text/javascript">
 jQuery(function($) {
-$("#menu1").css({top:"-80px",opacity:0});
-$("#menu2").css({top:"-80px",opacity:0});
-$("#menu3").css({top:"-80px",opacity:0});
-$("#menu4").css({top:"-80px",opacity:0});
+$('[id^=menu]').css({top:"-40px",opacity:0});
 $("#menu1").delay(0).animate({top:"0px",opacity:1},1000);
 $("#menu2").delay(200).animate({top:"0px",opacity:1},1000);
-$("#menu3").delay(240).animate({top:"0px",opacity:1},1000);
-$("#menu4").delay(280).animate({top:"0px",opacity:1},1000);
+$("#menu3").delay(220).animate({top:"0px",opacity:1},1000);
+$("#menu4").delay(240).animate({top:"0px",opacity:1},1000);
+$("#menu5").delay(260).animate({top:"0px",opacity:1},1000);
+$("#menu6").delay(280).animate({top:"0px",opacity:1},1000);
+$("#menu7").delay(300).animate({top:"0px",opacity:1},1000);
 });
 </script>
 
@@ -87,25 +81,54 @@ $("#menu4").delay(280).animate({top:"0px",opacity:1},1000);
 
 
 
-<div id="testmenu" style="position: absolute; top: 1; left: 1; width: 500px; height: 80px; margin: 0 auto; background-color: pink; z-index: 5; color: white;">
-<a id="menu1" href="#" style="position: relative; top: 0px; display: inline-block; width: 50px; height: 40px; background-color: gray; padding: 10px;">menu1</a>
-<a id="menu2" href="#" style="position: relative; top: 0px; display: inline-block; width: 50px; height: 40px; background-color: gray; padding: 10px;">menu2</a>
-<a id="menu3" href="#" style="position: relative; top: 0px; display: inline-block; width: 50px; height: 40px; background-color: gray; padding: 10px;">menu3</a>
-<a id="menu4" href="#" style="position: relative; top: 0px; display: inline-block; width: 50px; height: 40px; background-color: gray; padding: 10px;">menu4</a>
+<style type="text/css">
+.testmenu {position: fixed; top: 0; left: 0; width: 100%; min-width: 970px; height: 40px; margin: 0 auto; background-color: #3a4f5c; text-align: center; z-index: 5; color: white;}
+.testmenuitems {position: relative; top: 0px; display: inline-block; width: 70px; height: 16px; line-height: 20px; background-color: #2f434f; color: #ffffff !important; padding: 10px; font-size: 14px; font-weight: normal; text-transform: uppercase; text-decoration: none; border-bottom: 4px solid transparent;}
+.tm_active {border-bottom: 4px solid #ffa227;}
+.testmenuitems:hover {text-shadow: none; border-bottom: 4px solid #ffa227;}
+.tm_disabled {color: #8e9da3 !important; cursor: default;}
+.tm_disabled:hover {color: #8e9da3; border-bottom: 4px solid transparent !important; text-shadow: none;}
+</style>
+
+<div id="testmenu" class="testmenu">
+<a id="menu1" class="testmenuitems fadeout tm_active" href="/">Главная</a>
+<a id="menu2" class="testmenuitems fadeout" href="javascript:void(0)">Новости</a>
+<a id="menu3" class="testmenuitems fadeout tm_disabled" href="javascript:void(0)">Книга</a>
+<a id="menu4" class="testmenuitems fadeout tm_disabled" href="javascript:void(0)">Фильм</a>
+<a id="menu5" class="testmenuitems fadeout tm_disabled" href="javascript:void(0)">Команда</a>
+<a id="menu6" class="testmenuitems fadeout tm_disabled" href="javascript:void(0)">Видео</a>
+<a id="menu7" class="testmenuitems fadeout tm_disabled" href="javascript:void(0)">Кадры</a>
 </div>
 
 
-<div class="mainWrap">
-	<img class="mainBG noSelect" src="/images/mainBG.jpg">
+<!--div class="heroesWrap">
+	<img class="heroesBG noSelect" src="/images/heroesBG.png">
 	<div class="mainOverlay noSelect">&nbsp;</div>
 </div>
+<div class="mainWrap">
+	<img class="mainBG noSelect" src="/images/mainBG.jpg">
+</div-->
 
-<div style="text-transform: uppercase; position: absolute; left: 0; top: 30%; text-align: left; z-index: 3;">
 
-	<p><a class="fadeout" href="/404/index.php">test link</a></p>
-	
-	<img src="/images/title-glow.png" id="glow" style="display: block; padding: 20px;">
-	
+<style type="text/css">
+.bg_wrap {position: absolute; top: 20px; left: 0; width: 100%; min-width: 970px; min-height: 900px; overflow: hidden; z-index: 1; margin: 0 auto; text-align: center; background-image: url('/images/bg_main.jpg'); background-position: center top; background-repeat: no-repeat; background-size: contain;
+-ms-behavior: url(/backgroundsize.min.htc);}
+
+/*.heroes_wrap {position: absolute; top: 0; left: 0; width: 100%; min-width: 970px; max-width: 1600px; min-height: 900px; overflow: hidden; z-index: 2; margin: 0 auto; text-align: center; background-image: url('/images/heroesBG.png'); background-position: center top; background-repeat: no-repeat; background-size: contain;}*/
+
+.testtitle {position: absolute; right: 140px; top: -60px; width: 60%; height: 600px; z-index: 3; background-image: url('/images/testtitle.png'); background-position: center top; background-repeat: no-repeat; background-size: contain;}
+.testglow {position: absolute; right: 140px; top: -60px; width: 60%; height: 600px; z-index: 2; background-image: url('/images/testglow.png'); background-position: center top; background-repeat: no-repeat; background-size: contain;}
+</style>
+
+<div class="bg_wrap">
+	<div class="testtitle">suka1</div>
+	<div id="glow" class="testglow" style="display: block;">suka2</div>
+</div>
+
+
+
+<div style="display: none; text-transform: uppercase; position: absolute; left: 0; top: 70%; text-align: left; z-index: 3; padding-bottom: 50px;">
+
 	<div class="noSelect" style="margin-left: 100px; margin-bottom: 20px; display: inline-block; background-color: black; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%;"><img src="/images/spinner.gif" style="padding: 6px;"></div>
 	
 	<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h1>
@@ -122,14 +145,15 @@ $("#menu4").delay(280).animate({top:"0px",opacity:1},1000);
 </div>
 
 
+<div id="testfooter" style="position: fixed; bottom: 0; left: 0; width: 100%; height: 30px; margin: 0 auto; background-color: #3c3c3c; text-align: center; z-index: 5;">
+	<div class="copy">&copy; 2013 &laquo;<a class="fadeout" href="http://www.westvideo.ru">Вест Видео</a>&raquo;. Создание сайта: <a class="fadeout" href="http://www.kg-design.ru/">КГ-Дизайн</a></div>	
+</div>
 
-<div class="copy">&copy; 2013 &laquo;<a class="fadeout" href="http://www.westvideo.ru">Вест Видео</a>&raquo;. Создание сайта: <a class="fadeout" href="http://www.kg-design.ru/">КГ-Дизайн</a></div>
 
 <div id="counters">
 	<div class="counters_list">
-	<p>А это наши прекрасные счетчики:</p>
 	<p>
-	<?php include ("counters_include.php"); ?>	
+	<?php //include ("counters_include.php"); ?>	
 	</p>
 	</div>
 </div>

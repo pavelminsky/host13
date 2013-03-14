@@ -20,7 +20,7 @@ a:focus {outline: none;}
 ::-moz-selection {color: #ffffff; background: #94aabe;}
 
 html {height: 100%;}
-body {overflow: auto; height: 100%; min-width: 950px; min-height: 600px; background-color: #000000; color: #d6e5ec; line-height: 150%; font-family: 'Roboto Condensed', Helvetica, sans-serif;}
+body {overflow: auto; height: 100%; min-width: 970px; min-height: 600px; background-color: #000000; color: #d6e5ec; line-height: 150%; font-family: 'Roboto Condensed', Helvetica, sans-serif;}
 
 b, strong, h1, h2, h3, h4, h5, h6 {font-weight: normal; font-weight: 400;}
 i, em {font-style: normal;}
@@ -32,7 +32,7 @@ a:hover {color: #ffdd98; text-shadow: 0px -4px 8px #a98e57;}
 .wrap404 h2 {padding: 40px 0 30px 0; font-size: 240%;}
 .wrap404 p {font-size: 130%; line-height: 140%;}
 
-.copy {padding: 0 10px 20px 10px; font-size: 100%; color: #657379; text-align: center; opacity: 0.50; -moz-opacity: 0.850; -khtml-opacity: 0.50; filter: alpha(opacity=50);}
+.copy {padding: 0 10px 20px 10px; font-size: 14px; color: #657379; text-align: center; line-height: 30px;}
 
 #counters {position: fixed; bottom: -160px; left: 10px; z-index: 1005; width: 140px; height: 180px; text-align: right; background-image:url('/images/counters.png'); background-position: right top; background-repeat: no-repeat;}
 .counters_list {padding-top: 30px; opacity: 0.40; -moz-opacity: 0.40; -khtml-opacity: 0.40; filter: alpha(opacity=40);}
@@ -41,8 +41,10 @@ a:hover {color: #ffdd98; text-shadow: 0px -4px 8px #a98e57;}
 
 .fancybox_img img {display: none !important;}
 
-.mainWrap {position: relative; top: 0; left: 0; width: 100%; min-width: 950px; max-width: 1700px; min-height: 100px; overflow: hidden; z-index: 1; margin: 0 auto; text-align: center;}
-.mainBG {display: block; width: 100%;}
+/*.mainWrap {position: absolute; top: 0; left: 0; width: 100%; min-width: 970px; max-width: 1600px; min-height: 100px; overflow: hidden; z-index: 1; margin: 0 auto; text-align: center;}
+.mainBG {display: block; width: 100%;}*/
+
+
 .mainOverlay {position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 2;}
 
 
