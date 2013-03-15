@@ -4,29 +4,29 @@
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="Название. Официальный сайт фильма. Дата.">
-<meta name="keywords" content="Название, Title, жанры, фильм, режиссер, актеры">
+<!--meta name="description" content="Название. Официальный сайт фильма. Дата.">
+<meta name="keywords" content="Название, Title, жанры, фильм, режиссер, актеры"-->
 
-<meta property="og:title" content="Название — официальный сайт фильма">
+<!--meta property="og:title" content="Название — официальный сайт фильма">
 <meta property="og:description" content="Краткое описание">
 <meta property="og:type" content="movie">
 <meta property="og:url" content="http://www.url.ru">
 <meta property="og:image" content="http://www.url.ru/images/share.jpg">
-<meta property="og:site_name" content="Название — официальный сайт фильма">
+<meta property="og:site_name" content="Название — официальный сайт фильма"-->
 
 <meta name="viewport" content="width=990">
 <meta name="format-detection" content="telephone=no">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 <meta name="apple-mobile-web-app-title" content="Гостья">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><!-- 144x144 -->
+<!--link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png">
 <link rel="icon" href="favicon.ico" type="image/x-icon">
-<link rel="shortcut icon" href="favicon.png">
+<link rel="shortcut icon" href="favicon.png"-->
 
-<meta itemprop="name" content="Название — официальный сайт фильма">
+<!--meta itemprop="name" content="Название — официальный сайт фильма">
 <meta itemprop="description" content="Краткое описание">
-<meta itemprop="image" content="http://www.url.ru/images/share.jpg">
+<meta itemprop="image" content="http://www.url.ru/images/share.jpg"-->
 
 <link rel="stylesheet" href="/css/main.css">
 <link rel="stylesheet" type="text/css" href="/css/fancybox.css?v=2.1.1" media="screen">
@@ -41,25 +41,25 @@ $('.dim').fadeOut(500);
 
 
 <script type="text/javascript">
-$(document).ready(function(){
-var $glowingLogo = $("#glow"),cycle;
-(cycle = function() {
-$glowingLogo.animate({opacity:0.4},4000).delay(500).animate({opacity:1.0},4000, cycle);
-})();
-});
+//$(document).ready(function(){
+//var $glowingLogo = $("#glow"),cycle;
+//(cycle = function() {
+//$glowingLogo.animate({opacity:0.4},4000).delay(500).animate({opacity:1.0},4000, cycle);
+//})();
+//});
 </script>
 
 <script type="text/javascript">
-jQuery(function($) {
-$('[id^=menu]').css({top:"-40px",opacity:0});
-$("#menu1").delay(0).animate({top:"0px",opacity:1},1000);
-$("#menu2").delay(200).animate({top:"0px",opacity:1},1000);
-$("#menu3").delay(220).animate({top:"0px",opacity:1},1000);
-$("#menu4").delay(240).animate({top:"0px",opacity:1},1000);
-$("#menu5").delay(260).animate({top:"0px",opacity:1},1000);
-$("#menu6").delay(280).animate({top:"0px",opacity:1},1000);
-$("#menu7").delay(300).animate({top:"0px",opacity:1},1000);
-});
+//jQuery(function($) {
+//$('[id^=menu]').css({top:"-40px",opacity:0});
+//$("#menu1").delay(0).animate({top:"0px",opacity:1},1000);
+//$("#menu2").delay(200).animate({top:"0px",opacity:1},1000);
+//$("#menu3").delay(220).animate({top:"0px",opacity:1},1000);
+//$("#menu4").delay(240).animate({top:"0px",opacity:1},1000);
+//$("#menu5").delay(260).animate({top:"0px",opacity:1},1000);
+//$("#menu6").delay(280).animate({top:"0px",opacity:1},1000);
+//$("#menu7").delay(300).animate({top:"0px",opacity:1},1000);
+//});
 </script>
 
 
