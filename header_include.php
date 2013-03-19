@@ -44,7 +44,7 @@ $('.dim').fadeOut(700);
 <script type="text/javascript">
 jQuery(function($) {
 $('[id^=menu]').css({top:"-40px",opacity:0});
-$("#menu1").delay(0).animate({top:"0px",opacity:1},1000);
+$("#menu1").delay(100).animate({top:"0px",opacity:1},1000);
 $("#menu2").delay(200).animate({top:"0px",opacity:1},1000);
 $("#menu3").delay(220).animate({top:"0px",opacity:1},1000);
 $("#menu4").delay(240).animate({top:"0px",opacity:1},1000);

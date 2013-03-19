@@ -26,26 +26,22 @@ b, strong, h1, h2, h3, h4, h5, h6 {font-weight: normal; font-weight: 400;}
 i, em {font-style: normal;}
 
 a:link, a:visited {color: #eec167;}
-a:hover {color: #ffdd98; text-shadow: 0px -4px 8px #a98e57;}
+a:hover {color: #ffdd98; text-shadow: 0px -1px 8px #8be8ff;}
 
-.wrap404 {width: 800px; margin: 0 auto; text-align: center;}
+/*.wrap404 {width: 800px; margin: 0 auto; text-align: center;}
 .wrap404 h2 {padding: 40px 0 30px 0; font-size: 240%;}
-.wrap404 p {font-size: 130%; line-height: 140%;}
+.wrap404 p {font-size: 130%; line-height: 140%;}*/
 
 
 
+.menu {position: fixed; top: 0; left: 0; width: 100%; min-width: 970px; height: 34px; margin: 0 auto; background-color: #1c323e; text-align: center; z-index: 6; color: #ffffff;}
+.menu a {position: relative; top: 0; width: 70px; display: inline-block; height: 14px; line-height: 14px; color: #ffffff !important; padding: 10px 10px 7px 10px; margin: 0 2px 0 2px; font-size: 14px; font-weight: normal; text-decoration: none; border-bottom: 3px solid transparent;}
 
-
-
-
-
-.menu {position: fixed; top: 0; left: 0; width: 100%; min-width: 970px; height: 40px; margin: 0 auto; background-color: #3a4f5c; text-align: center; z-index: 6; color: #ffffff;}
-.menu a {position: relative; top: 0; width: 70px; display: inline-block; height: 16px; line-height: 20px; color: #ffffff !important; padding: 10px; margin: 0 2px 0 2px; font-size: 14px; font-weight: normal; text-decoration: none; border-bottom: 4px solid transparent;}
-
-.menu .active {border-bottom: 4px solid #ffa227;}
-.menu a:hover {text-shadow: none; border-bottom: 4px solid #ffa227;}
-.menu .off {color: #8e9da3 !important; cursor: default;}
-.menu .off:hover {color: #8e9da3; border-bottom: 4px solid transparent !important; text-shadow: none;}
+.menu .active {border-bottom: 3px solid #ffa227;}
+.menu a:hover {text-shadow: 0 -1px 8px #8be8ff; border-bottom: 3px solid #ffa227;}
+.menu a.active:hover {cursor: default; text-shadow: none;}
+.menu .off {cursor: default; color: #8e9da3 !important;}
+.menu .off:hover {color: #8e9da3; border-bottom: 3px solid transparent !important; text-shadow: none;}
 
 
 
@@ -63,16 +59,14 @@ a:hover {color: #ffdd98; text-shadow: 0px -4px 8px #a98e57;}
 
 .index_age {position: fixed; bottom: 70px; left: 40px; z-index: 6; width: 80px; height: 50px; background-image:url('/images/age_dark.png');}
 
-.index_footer {position: fixed; bottom: 0; left: 0; width: 100%; min-width: 970px; height: 30px; margin: 0 auto; background-color: #000000; border-top: 1px solid #1b2021; text-align: center; z-index: 5;}
-.copy {padding: 0 10px 20px 10px; font-size: 13px; color: #525a5d; text-align: center; line-height: 30px; text-transform: none;}
-.copy a, .copy a:visited {color: #6a7478; text-decoration: none;}
-.copy a:hover {color: #6a7478; text-decoration: underline; text-shadow: none;}
+.index_footer {position: fixed; bottom: 0; left: 0; width: 100%; min-width: 970px; height: 28px; margin: 0 auto; background-color: #000000; border-top: 1px solid #1b2021; text-align: center; z-index: 5;}
+.copy {padding: 0 10px 20px 10px; font-size: 12px; color: #525a5d; text-align: center; line-height: 27px; text-transform: uppercase;}
+.copy a, .copy a:visited {color: #838b8e; text-decoration: none;}
+.copy a:hover {color: #889ea6; text-decoration: none; text-shadow: 0px -1px 8px #baf1ff;}
 
 #counters {position: fixed; bottom: -156px; right: 10px; z-index: 1005; width: 140px; height: 180px; text-align: right; background-image:url('/images/counters.png'); background-position: right top; background-repeat: no-repeat;}
 .counters_list {padding-top: 30px; opacity: 0.40; -moz-opacity: 0.40; -khtml-opacity: 0.40; filter: alpha(opacity=40);}
 .counters_list p {padding: 0; margin: 0; padding-bottom: 6px; font-size: 11px; color: #6b767b;}
-
-
 
 
 
