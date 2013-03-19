@@ -12,7 +12,7 @@ html[xmlns] .clearfix {display: block;}
 img {-ms-interpolation-mode:bicubic}
 a:focus {outline: none;}
 .dim {position: absolute; width: 100%; height: 100%; overflow: hidden; background-color: #ffffff; z-index: 9999;}
-.noSelect {-webkit-user-select: none; -moz-user-select: none; -khtml-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none;}
+.noselect {-webkit-user-select: none; -moz-user-select: none; -khtml-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none;}
 
 
 /* Site-wide + special */
@@ -20,7 +20,7 @@ a:focus {outline: none;}
 ::-moz-selection {color: #ffffff; background: #94aabe;}
 
 html {height: 100%;}
-body {overflow: auto; height: 100%; min-width: 970px; min-height: 600px; background-color: #000000; color: #d6e5ec; line-height: 150%; font-family: 'Roboto Condensed', Helvetica, sans-serif;}
+body {overflow: auto; height: 100%; min-width: 970px; min-height: 600px; background-color: #000000; color: #d6e5ec; line-height: 150%; font-family: 'Roboto Condensed', Helvetica, sans-serif; text-transform: uppercase;}
 
 b, strong, h1, h2, h3, h4, h5, h6 {font-weight: normal; font-weight: 400;}
 i, em {font-style: normal;}
@@ -32,20 +32,56 @@ a:hover {color: #ffdd98; text-shadow: 0px -4px 8px #a98e57;}
 .wrap404 h2 {padding: 40px 0 30px 0; font-size: 240%;}
 .wrap404 p {font-size: 130%; line-height: 140%;}
 
-.copy {padding: 0 10px 20px 10px; font-size: 14px; color: #657379; text-align: center; line-height: 30px;}
 
-#counters {position: fixed; bottom: -160px; left: 10px; z-index: 1005; width: 140px; height: 180px; text-align: right; background-image:url('/images/counters.png'); background-position: right top; background-repeat: no-repeat;}
+
+
+
+
+
+
+.menu {position: fixed; top: 0; left: 0; width: 100%; min-width: 970px; height: 40px; margin: 0 auto; background-color: #3a4f5c; text-align: center; z-index: 6; color: #ffffff;}
+.menu a {position: relative; top: 0; width: 70px; display: inline-block; height: 16px; line-height: 20px; color: #ffffff !important; padding: 10px; margin: 0 2px 0 2px; font-size: 14px; font-weight: normal; text-decoration: none; border-bottom: 4px solid transparent;}
+
+.menu .active {border-bottom: 4px solid #ffa227;}
+.menu a:hover {text-shadow: none; border-bottom: 4px solid #ffa227;}
+.menu .off {color: #8e9da3 !important; cursor: default;}
+.menu .off:hover {color: #8e9da3; border-bottom: 4px solid transparent !important; text-shadow: none;}
+
+
+
+
+
+.index_wrap {position: absolute; top: 0px; left: 0; width: 100%; min-width: 970px; height: 100%; min-height: 600px; overflow: hidden; z-index: 1; margin: 0 auto; text-align: center; background-image: url('/images/bg_index.jpg'); background-position: center top; background-repeat: no-repeat; background-size: contain;}
+
+.logo_big, .logo_big_glow {position: absolute; right: 100px; top: 6.5%; width: 50%; max-width: 800px; height: 600px; background-position: center top; background-repeat: no-repeat;}
+.logo_big {z-index: 3; background-image: url('/images/logo_big.png'); background-size: contain;}
+.logo_big_glow {z-index: 2; background-image: url('/images/logo_big_glow.png'); background-size: contain;}
+
+.index_text, .index_date {position: absolute; right: 90px; top: 3%; width: 50%; max-width: 800px; height: 600px; background-position: center top; background-repeat: no-repeat;}
+.index_text {z-index: 5; background-image: url('/images/index_date.png'); background-size: contain;}
+.index_date {z-index: 4; background-image: url('/images/index_text.png'); background-size: contain;}
+
+.index_age {position: fixed; bottom: 70px; left: 40px; z-index: 6; width: 80px; height: 50px; background-image:url('/images/age_dark.png');}
+
+.index_footer {position: fixed; bottom: 0; left: 0; width: 100%; min-width: 970px; height: 30px; margin: 0 auto; background-color: #000000; border-top: 1px solid #1b2021; text-align: center; z-index: 5;}
+.copy {padding: 0 10px 20px 10px; font-size: 13px; color: #525a5d; text-align: center; line-height: 30px; text-transform: none;}
+.copy a, .copy a:visited {color: #6a7478; text-decoration: none;}
+.copy a:hover {color: #6a7478; text-decoration: underline; text-shadow: none;}
+
+#counters {position: fixed; bottom: -156px; right: 10px; z-index: 1005; width: 140px; height: 180px; text-align: right; background-image:url('/images/counters.png'); background-position: right top; background-repeat: no-repeat;}
 .counters_list {padding-top: 30px; opacity: 0.40; -moz-opacity: 0.40; -khtml-opacity: 0.40; filter: alpha(opacity=40);}
 .counters_list p {padding: 0; margin: 0; padding-bottom: 6px; font-size: 11px; color: #6b767b;}
-#counters:hover {bottom: 0;}
+
+
+
+
+
+
 
 .fancybox_img img {display: none !important;}
 
-/*.mainWrap {position: absolute; top: 0; left: 0; width: 100%; min-width: 970px; max-width: 1600px; min-height: 100px; overflow: hidden; z-index: 1; margin: 0 auto; text-align: center;}
-.mainBG {display: block; width: 100%;}*/
 
 
-.mainOverlay {position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 2;}
 
 
 
