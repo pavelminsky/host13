@@ -4,15 +4,6 @@
 
 <link rel="stylesheet" type="text/css" href="/css/fancybox.css?v=2.1.1" media="screen">
 
-<script type="text/javascript">
-$(document).ready(function(){
-var $glowingLogo = $(".logo_big_glow"),cycle;
-(cycle = function() {
-$glowingLogo.animate({opacity:0},4000).delay(500).animate({opacity:1},4000, cycle);
-})();
-});
-</script>
-
 <link href="/css/video-js.css" rel="stylesheet">
 <script type="text/javascript" src="/js/video.js"></script>
 <style type="text/css">
@@ -22,14 +13,17 @@ $glowingLogo.animate({opacity:0},4000).delay(500).animate({opacity:1},4000, cycl
 .vjs-default-skin .vjs-current-time-display, .vjs-default-skin .vjs-remaining-time-display {font: normal 10px Arial; color: #6f7374; text-shadow: none;}
 </style>
 
-</head><body id="index">
+</head><body id="about">
 
 <noscript><style>.dim {display: none;} #counters:hover {bottom: 0;}</style><div style="position: absolute; bottom: 80px; left: 50%; width: 360px; z-index: 9999; margin-left: -180px; font-size: 14px; color: #849091; line-height: 20px; text-align: center; border: 1px solid #849091;">В вашем браузере отключен JavaScript</div></noscript>
 <div class="dim">&nbsp;</div>
 
 
 
-
+<style type="text/css">
+body#about {background-color: #512c00;}
+body {background: url('/images/bg_about.jpg') center center no-repeat; background-size: cover;}
+</style>
 
 <div class="menu">
 	<a id="menu1" class="fadeout" href="/">Главная</a>
@@ -41,12 +35,11 @@ $glowingLogo.animate({opacity:0},4000).delay(500).animate({opacity:1},4000, cycl
 	<a id="menu7" class="fadeout off" href="javascript:void(0)">Кадры</a>
 </div>
 
-<div class="index_wrap noselect">
+<!--div class="index_wrap noselect">
 	<div class="index_text">&nbsp;</div>
 	<div class="index_date">&nbsp;</div>
 	<div class="logo_big">&nbsp;</div>
-	<!--div class="logo_big_glow" style="display: block;">&nbsp;</div-->
-</div>
+</div-->
 
 <div class="index_age noselect">&nbsp;</div>
 
@@ -77,11 +70,7 @@ $glowingLogo.animate({opacity:0},4000).delay(500).animate({opacity:1},4000, cycl
 <script src="/js/jquery.backgroundSize.js" type="text/javascript"></script>
 <script type="text/javascript">
 $(function() {
-$(".index_wrap").css({backgroundSize: "contain"});
-$(".logo_big").css({backgroundSize: "contain"});
-$(".logo_big_glow").css({backgroundSize: "contain"});
-$(".index_text").css({backgroundSize: "contain"});
-$(".index_date").css({backgroundSize: "contain"});
+$("body").css({backgroundSize: "cover"});
 });
 </script>
 <!--[if lte IE 8]><style type="text/css">.logo_big_glow {display: none !important;}</style><![endif]-->

@@ -20,7 +20,8 @@ a:focus {outline: none;}
 ::-moz-selection {color: #ffffff; background: #94aabe;}
 
 html {height: 100%;}
-body {overflow: auto; height: 100%; min-width: 970px; min-height: 600px; background-color: #000000; color: #d6e5ec; line-height: 150%; font-family: 'Roboto Condensed', Helvetica, sans-serif; text-transform: uppercase;}
+body {overflow: auto; height: 100%; min-width: 970px; min-height: 600px; color: #d6e5ec; line-height: 150%; font-family: 'Roboto Condensed', Helvetica, sans-serif; text-transform: uppercase;}
+body#index {background-color: #000000;}
 
 b, strong, h1, h2, h3, h4, h5, h6 {font-weight: normal; font-weight: 400;}
 i, em {font-style: normal;}
@@ -34,7 +35,10 @@ a:hover {color: #ffdd98; text-shadow: 0px -1px 8px #8be8ff;}
 
 
 
-.menu {position: fixed; top: 0; left: 0; width: 100%; min-width: 970px; height: 34px; margin: 0 auto; background-color: #1c323e; text-align: center; z-index: 6; color: #ffffff;}
+body#index .menu {background-color: #1c323e;}
+body#about .menu {background-color: #673b03;}
+
+.menu {position: fixed; top: 0; left: 0; width: 100%; min-width: 970px; height: 34px; margin: 0 auto; text-align: center; z-index: 6; color: #ffffff;}
 .menu a {position: relative; top: 0; width: 70px; display: inline-block; height: 14px; line-height: 14px; color: #ffffff !important; padding: 10px 10px 7px 10px; margin: 0 2px 0 2px; font-size: 14px; font-weight: normal; text-decoration: none; border-bottom: 3px solid transparent;}
 
 .menu .active {border-bottom: 3px solid #ffa227;}
