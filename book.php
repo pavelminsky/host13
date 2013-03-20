@@ -13,7 +13,7 @@
 .vjs-default-skin .vjs-current-time-display, .vjs-default-skin .vjs-remaining-time-display {font: normal 10px Arial; color: #6f7374; text-shadow: none;}
 </style>
 
-</head><body id="about">
+</head><body id="book">
 
 <noscript><style>.dim {display: none;} #counters:hover {bottom: 0;}</style><div style="position: absolute; bottom: 80px; left: 50%; width: 360px; z-index: 9999; margin-left: -180px; font-size: 14px; color: #849091; line-height: 20px; text-align: center; border: 1px solid #849091; background-color: #000000;">В вашем браузере отключен JavaScript</div></noscript>
 <div class="dim">&nbsp;</div>
@@ -21,15 +21,15 @@
 
 
 <style type="text/css">
-body#about {background-color: #200b05;}
-body {background: url('/images/bg_about.jpg') center center no-repeat; background-size: cover; background-attachment: fixed;}
+body#book {background-color: #834017;}
+body {background: url('/images/bg_book.jpg') center center no-repeat; background-size: cover; background-attachment: fixed;}
 </style>
 
 <div class="menu noselect">
 	<a id="menu1" class="fadeout" href="/">Главная</a>
 	<a id="menu2" class="fadeout off" href="javascript:void(0)">Новости</a>
-	<a id="menu3" class="fadeout" href="/book/">Книга</a>
-	<a id="menu4" class="fadeout active" href="/about/">Фильм</a>
+	<a id="menu3" class="fadeout active" href="/book/">Книга</a>
+	<a id="menu4" class="fadeout" href="/about/">Фильм</a>
 	<a id="menu5" class="fadeout off" href="javascript:void(0)">Команда</a>
 	<a id="menu6" class="fadeout off" href="javascript:void(0)">Видео</a>
 	<a id="menu7" class="fadeout off" href="javascript:void(0)">Кадры</a>
@@ -48,12 +48,7 @@ body {background: url('/images/bg_about.jpg') center center no-repeat; backgroun
 <div id="counters"><div class="counters_list"><p><?php //include ("counters_include.php"); ?></p></div></div>
 
 
-<style type="text/css">
-.testtext {display: block; width: 48%; min-width: 500px; position: absolute; right: 0; top: 7%; text-align: left; z-index: 3; color: #ffe9d2; margin: 20px 40px 20px 20px; padding-bottom: 70px; text-shadow: 0 1px 2px #471800;}
-</style>
-<div class="testtext">
-
-	<div style="height: 200px;">&nbsp;</div>
+<div style="display: block; width: 48%; min-width: 500px; position: absolute; left: 0; top: 7%; text-align: left; z-index: 3; color: white; margin: 20px 20px 20px 40px; padding-bottom: 70px; text-shadow: 0 1px 2px #7f3000;">
 
 	<!--div class="noselect" style="margin-left: 100px; margin-bottom: 20px; display: inline-block; background-color: black; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%;"><img src="/images/spinner.gif" style="padding: 6px;"></div-->
 	

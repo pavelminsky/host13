@@ -15,10 +15,10 @@ $glowingLogo.animate({opacity:0},4000).delay(500).animate({opacity:1},4000, cycl
 <div class="dim">&nbsp;</div>
 
 
-<div class="menu">
+<div class="menu noselect">
 	<a id="menu1" class="fadeout active" href="/">Главная</a>
 	<a id="menu2" class="fadeout off" href="javascript:void(0)">Новости</a>
-	<a id="menu3" class="fadeout off" href="javascript:void(0)">Книга</a>
+	<a id="menu3" class="fadeout" href="/book/">Книга</a>
 	<a id="menu4" class="fadeout" href="/about/">Фильм</a>
 	<a id="menu5" class="fadeout off" href="javascript:void(0)">Команда</a>
 	<a id="menu6" class="fadeout off" href="javascript:void(0)">Видео</a>
@@ -32,9 +32,9 @@ $glowingLogo.animate({opacity:0},4000).delay(500).animate({opacity:1},4000, cycl
 	<div class="logo_big_glow" style="display: block;">&nbsp;</div>
 </div>
 
-<div class="index_age noselect">&nbsp;</div>
+<div class="age noselect">&nbsp;</div>
 
-<div class="footer"><div class="copy">&copy; 2013 &laquo;<a class="fadeout" href="http://www.westvideo.ru/">Вест Видео</a>&raquo; &nbsp;&nbsp; Создание сайта: <a class="fadeout" href="http://www.kg-design.ru/">КГ-Дизайн</a></div></div>
+<div class="footer noselect"><div class="copy">&copy; 2013 &laquo;<a class="fadeout" href="http://www.westvideo.ru/">Вест Видео</a>&raquo; &nbsp;&nbsp; Создание сайта: <a class="fadeout" href="http://www.kg-design.ru/">КГ-Дизайн</a></div></div>
 
 <div id="counters"><div class="counters_list"><p><?php //include ("counters_include.php"); ?></p></div></div>
 

@@ -36,10 +36,16 @@ a:hover {color: #ffdd98; text-shadow: 0px -1px 8px #8be8ff;}
 
 
 body#index .menu {background-color: #1c323e;}
-body#about .menu {background-color: #502000;}
+body#index .footer {color: #5b6367; background-color: #000000; border-top: 1px solid #1b2021;}
+body#index .age {position: fixed; bottom: 70px; left: 40px; z-index: 6; width: 80px; height: 50px; background-image:url('/images/age_dark.png');}
 
-body#index .footer {background-color: #000000; border-top: 1px solid #1b2021;}
-body#about .footer {background-color: #301300; border-top: 1px solid #612700;}
+body#book .menu {background-color: #7a3900;}
+body#book .footer {color: #918a7e; background-color: #7a3900; border-top: 1px solid #a46415;}
+body#book .age {position: fixed; bottom: 70px; left: 40px; z-index: 6; width: 80px; height: 50px; background-image:url('/images/age_bright.png');}
+
+body#about .menu {background-color: #1c323e;}
+body#about .footer {color: #5b6367; background-color: #000000; border-top: 1px solid #1b2021;}
+body#about .age {position: fixed; bottom: 70px; right: 40px; z-index: 6; width: 80px; height: 50px; background-image:url('/images/age_bright.png');}
 
 
 .menu {position: fixed; top: 0; left: 0; width: 100%; min-width: 970px; height: 34px; margin: 0 auto; text-align: center; z-index: 6; color: #ffffff;}
@@ -53,8 +59,6 @@ body#about .footer {background-color: #301300; border-top: 1px solid #612700;}
 
 
 
-
-
 .index_wrap {position: absolute; top: 0px; left: 0; width: 100%; min-width: 970px; height: 100%; min-height: 600px; overflow: hidden; z-index: 1; margin: 0 auto; text-align: center; background-image: url('/images/bg_index.jpg'); background-position: center top; background-repeat: no-repeat; background-size: contain;}
 
 .logo_big, .logo_big_glow {position: absolute; right: 100px; top: 6.5%; width: 50%; max-width: 800px; height: 600px; background-position: center top; background-repeat: no-repeat;}
@@ -65,10 +69,8 @@ body#about .footer {background-color: #301300; border-top: 1px solid #612700;}
 .index_text {z-index: 5; background-image: url('/images/index_date.png'); background-size: contain;}
 .index_date {z-index: 4; background-image: url('/images/index_text.png'); background-size: contain;}
 
-.index_age {position: fixed; bottom: 70px; left: 40px; z-index: 6; width: 80px; height: 50px; background-image:url('/images/age_dark.png');}
-
 .footer {position: fixed; bottom: 0; left: 0; width: 100%; min-width: 970px; height: 28px; margin: 0 auto; text-align: center; z-index: 5;}
-.copy {padding: 0 10px 20px 10px; font-size: 12px; color: #5c5e5f; text-align: center; line-height: 27px; text-transform: uppercase;}
+.copy {padding: 0 10px 20px 10px; font-size: 12px; text-align: center; line-height: 27px; text-transform: uppercase;}
 .copy a, .copy a:visited {color: #8d9091; text-decoration: none;}
 .copy a:hover {color: #9da7ab; text-decoration: none; text-shadow: 0px -1px 8px #baf1ff;}
 
