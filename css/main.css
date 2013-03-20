@@ -36,7 +36,11 @@ a:hover {color: #ffdd98; text-shadow: 0px -1px 8px #8be8ff;}
 
 
 body#index .menu {background-color: #1c323e;}
-body#about .menu {background-color: #673b03;}
+body#about .menu {background-color: #502000;}
+
+body#index .footer {background-color: #000000; border-top: 1px solid #1b2021;}
+body#about .footer {background-color: #301300; border-top: 1px solid #612700;}
+
 
 .menu {position: fixed; top: 0; left: 0; width: 100%; min-width: 970px; height: 34px; margin: 0 auto; text-align: center; z-index: 6; color: #ffffff;}
 .menu a {position: relative; top: 0; width: 70px; display: inline-block; height: 14px; line-height: 14px; color: #ffffff !important; padding: 10px 10px 7px 10px; margin: 0 2px 0 2px; font-size: 14px; font-weight: normal; text-decoration: none; border-bottom: 3px solid transparent;}
@@ -44,8 +48,8 @@ body#about .menu {background-color: #673b03;}
 .menu .active {border-bottom: 3px solid #ffa227;}
 .menu a:hover {text-shadow: 0 -1px 8px #8be8ff; border-bottom: 3px solid #ffa227;}
 .menu a.active:hover {cursor: default; text-shadow: none;}
-.menu .off {cursor: default; color: #8e9da3 !important;}
-.menu .off:hover {color: #8e9da3; border-bottom: 3px solid transparent !important; text-shadow: none;}
+.menu .off {cursor: default; color: #9c9e9f !important;}
+.menu .off:hover {color: #9c9e9f; border-bottom: 3px solid transparent !important; text-shadow: none;}
 
 
 
@@ -63,10 +67,10 @@ body#about .menu {background-color: #673b03;}
 
 .index_age {position: fixed; bottom: 70px; left: 40px; z-index: 6; width: 80px; height: 50px; background-image:url('/images/age_dark.png');}
 
-.index_footer {position: fixed; bottom: 0; left: 0; width: 100%; min-width: 970px; height: 28px; margin: 0 auto; background-color: #000000; border-top: 1px solid #1b2021; text-align: center; z-index: 5;}
-.copy {padding: 0 10px 20px 10px; font-size: 12px; color: #525a5d; text-align: center; line-height: 27px; text-transform: uppercase;}
-.copy a, .copy a:visited {color: #838b8e; text-decoration: none;}
-.copy a:hover {color: #889ea6; text-decoration: none; text-shadow: 0px -1px 8px #baf1ff;}
+.footer {position: fixed; bottom: 0; left: 0; width: 100%; min-width: 970px; height: 28px; margin: 0 auto; text-align: center; z-index: 5;}
+.copy {padding: 0 10px 20px 10px; font-size: 12px; color: #5c5e5f; text-align: center; line-height: 27px; text-transform: uppercase;}
+.copy a, .copy a:visited {color: #8d9091; text-decoration: none;}
+.copy a:hover {color: #9da7ab; text-decoration: none; text-shadow: 0px -1px 8px #baf1ff;}
 
 #counters {position: fixed; bottom: -156px; right: 10px; z-index: 1005; width: 140px; height: 180px; text-align: right; background-image:url('/images/counters.png'); background-position: right top; background-repeat: no-repeat;}
 .counters_list {padding-top: 30px; opacity: 0.40; -moz-opacity: 0.40; -khtml-opacity: 0.40; filter: alpha(opacity=40);}

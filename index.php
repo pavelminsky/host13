@@ -11,7 +11,7 @@ $glowingLogo.animate({opacity:0},4000).delay(500).animate({opacity:1},4000, cycl
 
 </head><body id="index">
 
-<noscript><style>.dim {display: none;} #counters:hover {bottom: 0;}</style><div style="position: absolute; bottom: 80px; left: 50%; width: 360px; z-index: 9999; margin-left: -180px; font-size: 14px; color: #849091; line-height: 20px; text-align: center; border: 1px solid #849091;">В вашем браузере отключен JavaScript</div></noscript>
+<noscript><style>.dim {display: none;} #counters:hover {bottom: 0;}</style><div style="position: absolute; bottom: 80px; left: 50%; width: 360px; z-index: 9999; margin-left: -180px; font-size: 14px; color: #849091; line-height: 20px; text-align: center; border: 1px solid #849091; background-color: #000000;">В вашем браузере отключен JavaScript</div></noscript>
 <div class="dim">&nbsp;</div>
 
 
@@ -34,13 +34,13 @@ $glowingLogo.animate({opacity:0},4000).delay(500).animate({opacity:1},4000, cycl
 
 <div class="index_age noselect">&nbsp;</div>
 
-<div class="index_footer"><div class="copy">&copy; 2013 &laquo;<a class="fadeout" href="http://www.westvideo.ru/">Вест Видео</a>&raquo; &nbsp;&nbsp; Создание сайта: <a class="fadeout" href="http://www.kg-design.ru/">КГ-Дизайн</a></div></div>
+<div class="footer"><div class="copy">&copy; 2013 &laquo;<a class="fadeout" href="http://www.westvideo.ru/">Вест Видео</a>&raquo; &nbsp;&nbsp; Создание сайта: <a class="fadeout" href="http://www.kg-design.ru/">КГ-Дизайн</a></div></div>
 
 <div id="counters"><div class="counters_list"><p><?php //include ("counters_include.php"); ?></p></div></div>
 
 
 <!-- Index: background-size fix for IE8 -->
-<script src="/js/jquery.backgroundSize.js" type="text/javascript"></script>
+<!--[if lt IE 9]><script src="/js/jquery.backgroundSize.js" type="text/javascript"></script><![endif]-->
 <script type="text/javascript">
 $(function() {
 $(".index_wrap").css({backgroundSize: "contain"});
@@ -50,6 +50,6 @@ $(".index_text").css({backgroundSize: "contain"});
 $(".index_date").css({backgroundSize: "contain"});
 });
 </script>
-<!--[if lte IE 8]><style type="text/css">.logo_big_glow {display: none !important;}</style><![endif]-->
+<!--[if lt IE 9]><style type="text/css">.logo_big_glow {display: none !important;}</style><![endif]-->
 
 </body></html>
