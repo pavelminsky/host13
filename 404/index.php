@@ -3,25 +3,15 @@
 <head><title>Страница не найдена</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=990">
+<meta name="viewport" content="width=970">
 <meta name="format-detection" content="telephone=no">
-<link rel="icon" type="image/png" href="../favicon.ico">
-<link rel="stylesheet" href="../css/main.css">
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script type="text/javascript" src="../js/init.js"></script>
-<script>
-jQuery(function($) {
-$('.dim').fadeOut(500);
-});
-</script>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="favicon.png">
+<link rel="stylesheet" href="index.css">
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300,400&subset=latin,cyrillic-ext,cyrillic,latin-ext' rel='stylesheet' type='text/css'>
 </head><body>
-<noscript><style>.dim {display: none;}</style></noscript>
-<div class="dim">&nbsp;</div>
 <div class="wrap404">
-<h2>Просто <i>прекрасно!</i> </h2>
-<img src="404.jpg">
-<p>Неправильно набран адрес, или такой страницы на сайте больше не существует.</p>
-<p><a href="http://www.beautifulcreaturesmovie.ru/" class="fadeout">Вернитесь на главную</a>.</p>
+<img src="index.jpg">
+<p>Неправильно набран адрес, или такой страницы на сайте больше не существует.<br><a href="http://www.hostmovie.ru/" class="fadeout">Вернитесь на главную</a>.</p>
 </div>
-
 </body></html>

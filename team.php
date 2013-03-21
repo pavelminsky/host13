@@ -15,7 +15,7 @@
 
 </head><body id="team">
 
-<noscript><style>.dim {display: none;} #counters:hover {bottom: 0;}</style><div style="position: absolute; bottom: 80px; left: 50%; width: 360px; z-index: 9999; margin-left: -180px; font-size: 14px; color: #849091; line-height: 20px; text-align: center; border: 1px solid #849091; background-color: #000000;">В вашем браузере отключен JavaScript</div></noscript>
+<noscript><style>.dim {display: none;} #counters:hover {bottom: 0;}</style><div style="position: fixed; bottom: 80px; left: 50%; width: 360px; z-index: 9999; margin-left: -180px; font-size: 14px; color: #849091; line-height: 20px; text-align: center; border: 1px solid #849091; background-color: #000000;">В вашем браузере отключен JavaScript</div></noscript>
 <div class="dim">&nbsp;</div>
 
 
@@ -40,7 +40,7 @@
 
 <div class="footer noselect"><div class="copy">&copy; 2013 &laquo;<a class="fadeout" href="http://www.westvideo.ru/">Вест Видео</a>&raquo; &nbsp;&nbsp; Создание сайта: <a class="fadeout" href="http://www.kg-design.ru/">КГ-Дизайн</a></div></div>
 
-<div id="counters"><div class="counters_list"><p><?php //include ("counters_include.php"); ?></p></div></div>
+<div id="counters"><div class="counters_list"><p><?php include ("counters_include.php"); ?></p></div></div>
 
 
 <style type="text/css">

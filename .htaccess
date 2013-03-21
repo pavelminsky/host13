@@ -3,4 +3,4 @@ RewriteEngine on
 RewriteRule ^([a-z]+)/?$ $1.php
 
 DirectoryIndex index.php
-ErrorDocument 404 http://www.url.ru/404/
+ErrorDocument 404 http://www.hostmovie.ru/404/

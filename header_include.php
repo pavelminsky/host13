@@ -4,31 +4,37 @@
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<!--meta name="description" content="Название. Официальный сайт фильма. Дата.">
-<meta name="keywords" content="Название, Title, жанры, фильм, режиссер, актеры"-->
+<meta name="description" content="Гостья. Официальный сайт фильма. В кино с 28 марта.">
+<meta name="keywords" content="Гостья, The Host, Сумерки, Стефани Майер, триллер, фантастика, фильм, книга, экранизация, Эндрю Никкол, Сирша Ронан, Дайан Крюгер">
 
-<!--meta property="og:title" content="Название — официальный сайт фильма">
-<meta property="og:description" content="Краткое описание">
+<meta property="og:title" content="Гостья — официальный сайт фильма">
+<meta property="og:description" content="Экранизация одноименной книги Стефани Майер. Фантастический триллер о противостоянии Душ — бесплотных пришельцев, вселяющихся в людей и замещающих их разум своим — и последних остатков человечества.">
 <meta property="og:type" content="movie">
-<meta property="og:url" content="http://www.url.ru">
-<meta property="og:image" content="http://www.url.ru/images/share.jpg">
-<meta property="og:site_name" content="Название — официальный сайт фильма"-->
+<meta property="og:url" content="http://www.hostmovie.ru">
+<meta property="og:image" content="http://www.hostmovie.ru/images/share.jpg">
+<meta property="og:site_name" content="Гостья — официальный сайт фильма">
 
 <meta name="viewport" content="width=970">
 <meta name="format-detection" content="telephone=no">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 <meta name="apple-mobile-web-app-title" content="Гостья">
-<!--link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png">
 <link rel="icon" href="favicon.ico" type="image/x-icon">
-<link rel="shortcut icon" href="favicon.png"-->
+<link rel="shortcut icon" href="favicon.png">
 
-<!--meta itemprop="name" content="Название — официальный сайт фильма">
-<meta itemprop="description" content="Краткое описание">
-<meta itemprop="image" content="http://www.url.ru/images/share.jpg" -->
+<meta itemprop="name" content="Гостья — официальный сайт фильма">
+<meta itemprop="description" content="Экранизация одноименной книги Стефани Майер. Фантастический триллер о противостоянии Душ — бесплотных пришельцев, вселяющихся в людей и замещающих их разум своим — и последних остатков человечества.">
+<meta itemprop="image" content="http://www.hostmovie.ru/images/share.jpg">
 
-<link rel="stylesheet" href="/css/main.css">
+<?php
+$browser = $_SERVER['HTTP_USER_AGENT'];
+if (strstr($browser,'iPad') || strstr($browser,'iPhone') || strstr($browser,'Android'))
+	echo '<link rel="stylesheet" href="/css/main.css">';
+else
+	echo '<link rel="stylesheet" href="/css/main.css">';
+?>
 <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300,400&subset=latin,cyrillic-ext,cyrillic,latin-ext' rel='stylesheet' type='text/css'>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 
