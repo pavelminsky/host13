@@ -33,7 +33,7 @@
 	<a id="menu4" class="fadeout" href="/about/">Фильм</a>
 	<a id="menu5" class="fadeout" href="/team/">Команда</a>
 	<a id="menu6" class="fadeout active" href="/video/">Видео</a>
-	<a id="menu7" class="fadeout off" href="javascript:void(0)">Кадры</a>
+	<a id="menu7" class="fadeout" href="/gallery/">Кадры</a>
 </div>
 
 <div class="age_small noselect">&nbsp;</div>

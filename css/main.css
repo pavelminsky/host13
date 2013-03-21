@@ -42,7 +42,7 @@ body#book {min-height: 850px; background-color: #834017; background-image: url('
 body#book .menu {background-color: #7a3900;}
 body#book .footer {color: #918a7e; background-color: #7a3900; border-top: 1px solid #85460e;}
 
-body#about {min-height: 880px; background-color: #220c06; background-image: url('/images/bg_about.jpg'); background-position: center top; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
+body#about {min-height: 900px; background-color: #1f0b04; background-image: url('/images/bg_about.jpg'); background-position: center top; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
 body#about .menu {background-color: #2d1106;}
 body#about .footer {color: #66605a; background-color: #130700; border-top: 1px solid #27160c;}
 
@@ -53,6 +53,10 @@ body#team .footer {color: #4c536a; background-color: #000719; border-top: 1px so
 body#video {background-color: #000000;}
 body#video .menu {background-color: #000000;}
 body#video .footer {color: #535e68; background-color: #000000; border-top: 1px solid #000000;}
+
+body#gallery {min-height: 850px; background-color: #581705; background-image: url('/images/bg_spare.jpg'); background-position: right top; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
+body#gallery .menu {background-color: #7a3900;}
+body#gallery .footer {color: #918a7e; background-color: #7a3900; border-top: 1px solid #85460e;}
 
 
 
