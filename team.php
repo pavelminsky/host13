@@ -13,7 +13,7 @@
 .vjs-default-skin .vjs-current-time-display, .vjs-default-skin .vjs-remaining-time-display {font: normal 10px Arial; color: #6f7374; text-shadow: none;}
 </style>
 
-</head><body id="about">
+</head><body id="team">
 
 <noscript><style>.dim {display: none;} #counters:hover {bottom: 0;}</style><div style="position: absolute; bottom: 80px; left: 50%; width: 360px; z-index: 9999; margin-left: -180px; font-size: 14px; color: #849091; line-height: 20px; text-align: center; border: 1px solid #849091; background-color: #000000;">В вашем браузере отключен JavaScript</div></noscript>
 <div class="dim">&nbsp;</div>
@@ -24,8 +24,8 @@
 	<a id="menu1" class="fadeout" href="/">Главная</a>
 	<a id="menu2" class="fadeout off" href="javascript:void(0)">Новости</a>
 	<a id="menu3" class="fadeout" href="/book/">Книга</a>
-	<a id="menu4" class="fadeout active" href="/about/">Фильм</a>
-	<a id="menu5" class="fadeout" href="/team/">Команда</a>
+	<a id="menu4" class="fadeout" href="/about/">Фильм</a>
+	<a id="menu5" class="fadeout active" href="/team/">Команда</a>
 	<a id="menu6" class="fadeout" href="/video/">Видео</a>
 	<a id="menu7" class="fadeout off" href="javascript:void(0)">Кадры</a>
 </div>

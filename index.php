@@ -20,8 +20,8 @@ $glowingLogo.animate({opacity:0},4000).delay(500).animate({opacity:1},4000, cycl
 	<a id="menu2" class="fadeout off" href="javascript:void(0)">Новости</a>
 	<a id="menu3" class="fadeout" href="/book/">Книга</a>
 	<a id="menu4" class="fadeout" href="/about/">Фильм</a>
-	<a id="menu5" class="fadeout off" href="javascript:void(0)">Команда</a>
-	<a id="menu6" class="fadeout off" href="javascript:void(0)">Видео</a>
+	<a id="menu5" class="fadeout" href="/team/">Команда</a>
+	<a id="menu6" class="fadeout" href="/video/">Видео</a>
 	<a id="menu7" class="fadeout off" href="javascript:void(0)">Кадры</a>
 </div>
 

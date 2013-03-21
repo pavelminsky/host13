@@ -20,18 +20,13 @@
 
 
 
-<style type="text/css">
-body#book {background-color: #834017;}
-body {background: url('/images/bg_book.jpg') center center no-repeat; background-size: cover; background-attachment: fixed;}
-</style>
-
 <div class="menu noselect">
 	<a id="menu1" class="fadeout" href="/">Главная</a>
 	<a id="menu2" class="fadeout off" href="javascript:void(0)">Новости</a>
 	<a id="menu3" class="fadeout active" href="/book/">Книга</a>
 	<a id="menu4" class="fadeout" href="/about/">Фильм</a>
-	<a id="menu5" class="fadeout off" href="javascript:void(0)">Команда</a>
-	<a id="menu6" class="fadeout off" href="javascript:void(0)">Видео</a>
+	<a id="menu5" class="fadeout" href="/team/">Команда</a>
+	<a id="menu6" class="fadeout" href="/video/">Видео</a>
 	<a id="menu7" class="fadeout off" href="javascript:void(0)">Кадры</a>
 </div>
 
@@ -41,7 +36,7 @@ body {background: url('/images/bg_book.jpg') center center no-repeat; background
 	<div class="logo_big">&nbsp;</div>
 </div-->
 
-<div class="age noselect">&nbsp;</div>
+<div class="age_small noselect">&nbsp;</div>
 
 <div class="footer noselect"><div class="copy">&copy; 2013 &laquo;<a class="fadeout" href="http://www.westvideo.ru/">Вест Видео</a>&raquo;. Создание сайта: <a class="fadeout" href="http://www.kg-design.ru/">КГ-Дизайн</a></div></div>
 
@@ -59,6 +54,8 @@ body {background: url('/images/bg_book.jpg') center center no-repeat; background
 	
 	<p style="padding-bottom: 15px;"><b>Одна из Душ по имени Ванда пытается захватить тело юной Мелани. Однако происходит неожиданное: Мелани и Ванда вынуждены сосуществовать в одном теле. Гостье из космоса надлежало выследить и выдать землян-повстанцев, с которыми связана Мелани, но вместо этого она начинает помогать своей носительнице.</b></p>
 	
+	<p>Большая Медведица выслеживает центральный метеорит, учитывая, что в одном парсеке 3,26 световых года. Лисичка дает Млечный Путь, учитывая, что в одном парсеке 3,26 световых года. Высота иллюстрирует спектральный класс, таким образом, часовой пробег каждой точки поверхности на экваторе равен 1666км. Ось отражает астероидный апогей, выслеживая яркие, броские образования.</p>
+	<p>Большая Медведица выслеживает центральный метеорит, учитывая, что в одном парсеке 3,26 световых года. Лисичка дает Млечный Путь, учитывая, что в одном парсеке 3,26 световых года. Высота иллюстрирует спектральный класс, таким образом, часовой пробег каждой точки поверхности на экваторе равен 1666км. Ось отражает астероидный апогей, выслеживая яркие, броские образования.</p>
 	<p>Большая Медведица выслеживает центральный метеорит, учитывая, что в одном парсеке 3,26 световых года. Лисичка дает Млечный Путь, учитывая, что в одном парсеке 3,26 световых года. Высота иллюстрирует спектральный класс, таким образом, часовой пробег каждой точки поверхности на экваторе равен 1666км. Ось отражает астероидный апогей, выслеживая яркие, броские образования.</p>
 
 </div>
