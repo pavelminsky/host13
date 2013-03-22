@@ -27,7 +27,6 @@ a:hover {color: #d7ecfa; text-shadow: 0px -1px 8px #8be8ff;}
 
 
 /* Universal */
-
 .menu {position: fixed; top: 0; left: 0; width: 100%; min-width: 970px; height: 34px; margin: 0 auto; text-align: center; z-index: 6; color: #ffffff;}
 .menu a {position: relative; top: 0; width: 70px; display: inline-block; height: 14px; line-height: 14px; color: #ffffff !important; padding: 10px 10px 7px 10px; margin: 0 2px 0 2px; font-size: 14px; font-weight: normal; text-decoration: none; border-bottom: 3px solid transparent;}
 .menu .active {border-bottom: 3px solid #ffa227;}
@@ -55,7 +54,6 @@ a:hover {color: #d7ecfa; text-shadow: 0px -1px 8px #8be8ff;}
 
 
 /* Section-specific */
-
 body#index {background-color: #000000;}
 body#index .menu {background-color: #1c323e;}
 body#index .footer {color: #5b6367; background-color: #000000; border-top: 1px solid #1b2021;}
@@ -68,7 +66,7 @@ body#about {min-height: 900px; background-color: #1f0b04; background-image: url(
 body#about .menu {background-color: #2d1106;}
 body#about .footer {color: #66605a; background-color: #130700; border-top: 1px solid #27160c;}
 
-body#team {min-height: 840px; background-color: #000822; background-image: url('/images/bg_team.jpg'); background-position: center top; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
+body#team {min-height: 840px; background-color: #000822; background-image: url('/images/bg_team.jpg'); background-position: left top; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
 body#team .menu {background-color: #25314f;}
 body#team .footer {color: #4c536a; background-color: #000719; border-top: 1px solid #0c152e;}
 
@@ -83,7 +81,6 @@ body#gallery .footer {color: #918a7e; background-color: #541c00; border-top: 1px
 
 
 /* Index */
-
 .index_wrap {position: absolute; top: 0px; left: 0; width: 100%; min-width: 970px; height: 100%; min-height: 600px; overflow: hidden; z-index: 1; margin: 0 auto; text-align: center; background-image: url('/images/bg_index.jpg'); background-position: center top; background-repeat: no-repeat; background-size: contain;}
 
 .logo_big, .logo_big_glow {position: absolute; right: 100px; top: 6.5%; width: 50%; max-width: 800px; height: 600px; background-position: center top; background-repeat: no-repeat;}
