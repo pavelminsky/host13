@@ -1,6 +1,6 @@
 RewriteEngine on
 
-RewriteRule ^([a-z]+)/?$ $1.php
+RewriteRule ^([a-z0-9]+)/?$ $1.php
 
 DirectoryIndex index.php
 ErrorDocument 404 http://www.hostmovie.ru/404/

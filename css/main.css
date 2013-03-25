@@ -27,7 +27,7 @@ a:hover {color: #d7ecfa; text-shadow: 0px -1px 8px #8be8ff;}
 
 
 /* Universal */
-.menu {position: fixed; top: 0; left: 0; width: 100%; min-width: 970px; height: 34px; margin: 0 auto; text-align: center; z-index: 6; color: #ffffff;}
+.menu {position: fixed; top: 0; left: 0; width: 100%; min-width: 970px; height: 34px; margin: 0 auto; text-align: center; z-index: 20; color: #ffffff;}
 .menu a {position: relative; top: 0; width: 70px; display: inline-block; height: 14px; line-height: 14px; color: #ffffff !important; padding: 10px 10px 7px 10px; margin: 0 2px 0 2px; font-size: 14px; font-weight: normal; text-decoration: none; border-bottom: 3px solid transparent;}
 .menu .active {border-bottom: 3px solid #ffa227;}
 .menu a:hover {text-shadow: 0 -1px 8px #8be8ff; border-bottom: 3px solid #ffa227;}
@@ -37,7 +37,7 @@ a:hover {color: #d7ecfa; text-shadow: 0px -1px 8px #8be8ff;}
 
 .logo_small {width: 320px; height: 140px; background: url('/images/logo_small_date.png') center center no-repeat;}
 
-.footer {position: fixed; bottom: 0; left: 0; width: 100%; min-width: 970px; height: 28px; margin: 0 auto; text-align: center; z-index: 5;}
+.footer {position: fixed; bottom: 0; left: 0; width: 100%; min-width: 970px; height: 28px; margin: 0 auto; text-align: center; z-index: 20;}
 .copy {padding: 0 10px 20px 10px; font-size: 12px; text-align: center; line-height: 27px; text-transform: uppercase;}
 .copy a, .copy a:visited {color: #8d9091; text-decoration: none;}
 .copy a:hover {color: #9da7ab; text-decoration: none; text-shadow: 0px -1px 8px #baf1ff;}
@@ -46,8 +46,8 @@ a:hover {color: #d7ecfa; text-shadow: 0px -1px 8px #8be8ff;}
 .counters_list {padding-top: 30px; opacity: 0.40; -moz-opacity: 0.40; -khtml-opacity: 0.40; filter: alpha(opacity=40);}
 .counters_list p {padding: 0; margin: 0; padding-bottom: 6px; font-size: 11px; color: #6b767b;}
 
-.age {position: fixed; bottom: 50px; right: 20px; z-index: 6; width: 80px; height: 50px; background-image:url('/images/age.png');}
-.age_small {position: fixed; bottom: 2px; right: 10px; z-index: 6; width: 36px; height: 24px; background-image:url('/images/age_small.png');}
+.age {position: fixed; bottom: 50px; right: 20px; z-index: 22; width: 80px; height: 50px; background-image:url('/images/age.png');}
+.age_small {position: fixed; bottom: 2px; right: 10px; z-index: 22; width: 36px; height: 24px; background-image:url('/images/age_small.png');}
 
 .fancybox_img img {display: none !important;}
 
@@ -69,6 +69,12 @@ body#about .footer {color: #66605a; background-color: #130700; border-top: 1px s
 body#team {min-height: 840px; background-color: #000822; background-image: url('/images/bg_team.jpg'); background-position: left top; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
 body#team .menu {background-color: #25314f;}
 body#team .footer {color: #4c536a; background-color: #000719; border-top: 1px solid #0c152e;}
+
+
+body#team01 {min-height: 840px; background-color: #000000; background-image: url('/images/bg_team01.jpg'); background-position: center top; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
+body#team01 .menu {background-color: #5d1600;}
+body#team01 .footer {color: #4c5154; background-color: #000000; border-top: 1px solid #181f25;}
+
 
 body#video {background-color: #000000;}
 body#video .menu {background-color: #000000;}
@@ -115,6 +121,40 @@ body#about .logo_small {position: absolute; top: 0; right: 0;}
 .about p i {display: inline-block; padding-left: 5px; padding-right: 5px; margin-right: 2px; font-weight: 300; font-style: normal; text-decoration: none; text-shadow: none;}
 .about p.dos i {line-height: 22px; color: #1f0b04; background-color: #e6c1a8;}
 .about p.tres i {line-height: 22px; color: #1f0b04; background-color: #deaf8f;}
+
+
+
+/* Team */
+body#team .logo_small {position: absolute; top: 40px; right: 40px; z-index: 8;}
+
+.team_main, .team_glow {position: absolute; top: 70px; left: 58%; width: 600px; height: 900px; margin-left: -300px;}
+.team_main {z-index: 6; background: url('/images/team_main.png') center top no-repeat;}
+.team_glow {z-index: 5;}
+
+a.team_link_01 {display: block; position: absolute; top: 230px; left: 210px; z-index: 8; width: 170px; height: 200px; text-decoration: none; }
+div.team_hover_01 {display: block; position: absolute; top: 195px; left: 172px; z-index: 7; width: 254px; height: 254px; background: url('/images/team_hover_01.png') center center no-repeat; opacity: 0; -moz-opacity: 0; -khtml-opacity: 0; filter: alpha(opacity=0);}
+
+a.team_link_02, a.team_link_03, a.team_link_04, a.team_link_05, a.team_link_06, a.team_link_07, a.team_link_08, a.team_link_09 {display: block; position: absolute; z-index: 8; text-decoration: none;}
+
+a.team_link_02 {top: 230px; left: 10px; width: 150px; height: 160px;}
+a.team_link_03 {top: 150px; left: 440px; width: 130px; height: 130px;}
+a.team_link_04 {top: 320px; left: 430px; width: 150px; height: 160px;}
+a.team_link_05 {top: 50px; left: 160px; width: 130px; height: 130px;}
+a.team_link_06 {top: 480px; left: 330px; width: 110px; height: 120px;}
+a.team_link_07 {top: 440px; left: 120px; width: 110px; height: 120px;}
+a.team_link_08 {top: 590px; left: 20px; width: 150px; height: 160px;}
+a.team_link_09 {top: 650px; left: 240px; width: 130px; height: 160px;}
+
+.team_glow_02, .team_glow_03, .team_glow_04, .team_glow_05, .team_glow_06, .team_glow_07, .team_glow_08, .team_glow_09 {position: absolute; opacity: 0; -moz-opacity: 0; -khtml-opacity: 0; filter: alpha(opacity=0); background-position: center center; background-repeat: no-repeat;}
+
+.team_glow_02 {top: 207px; left: -1px; width: 182px; height: 182px; background-image: url('/images/team_glow_m.png');}
+.team_glow_03 {top: 136px; left: 436px; width: 144px; height: 144px; background-image: url('/images/team_glow_s.png');}
+.team_glow_04 {top: 297px; left: 415px; width: 182px; height: 182px; background-image: url('/images/team_glow_m.png');}
+.team_glow_05 {top: 36px; left: 156px; width: 144px; height: 144px; background-image: url('/images/team_glow_s.png');}
+.team_glow_06 {top: 458px; left: 316px; width: 144px; height: 144px; background-image: url('/images/team_glow_s.png');}
+.team_glow_07 {top: 419px; left: 106px; width: 144px; height: 144px; background-image: url('/images/team_glow_s.png');}
+.team_glow_08 {top: 610px; left: 7px; width: 144px; height: 144px; background-image: url('/images/team_glow_s.png');}
+.team_glow_09 {top: 668px; left: 236px; width: 144px; height: 144px; background-image: url('/images/team_glow_s.png');}
 
 
 
