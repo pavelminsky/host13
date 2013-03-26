@@ -30,7 +30,7 @@ $(".team_showlist").toggle(
 .vjs-default-skin div.vjs-big-play-button:hover {border: 1px solid #ffa227; -webkit-box-shadow: none !important; -moz-box-shadow: none !important; box-shadow: none !important;}
 </style>
 
-</head><body id="team01">
+</head><body id="team02">
 
 <noscript><style>.dim {display: none;} #counters:hover {bottom: 0;}</style><div style="position: fixed; bottom: 80px; left: 50%; width: 360px; z-index: 9999; margin-left: -180px; font-size: 14px; color: #849091; line-height: 20px; text-align: center; border: 1px solid #849091; background-color: #000000;">В вашем браузере отключен JavaScript</div></noscript>
 <div class="dim">&nbsp;</div>
@@ -43,11 +43,11 @@ $(".team_showlist").toggle(
 <div class="logo_small noselect">&nbsp;</div>
 
 <div class="team_showlist">Команда</div>
-<div class="team_person">Сирша Ронан</div>
+<div class="team_person">Макс Айронс</div>
 
 <div class="team_list" style="display: none;">
-	<a href="/team01/" class="fadeout active">Сирша Ронан</a>
-	<a href="/team02/" class="fadeout">Макс Айронс</a>
+	<a href="/team01/" class="fadeout">Сирша Ронан</a>
+	<a href="/team02/" class="fadeout active">Макс Айронс</a>
 	<a href="/team03/" class="fadeout">Диана Крюгер</a>
 	<a href="/team04/" class="fadeout">Джейк Абель</a>
 	<a href="/team05/" class="fadeout">Чандлер Кентербери</a>
@@ -58,34 +58,19 @@ $(".team_showlist").toggle(
 </div>
 
 
-
-<div class="team01_wrap clearfix">
-	<div class="team01_lc">
-		<div class="team01_content">
-		<div class="team01_melanie noselect">&nbsp;</div>
-		<h4>...В роли Мелани Страйдер</h4>
-		<p><b>Мелани</b> – сильная, храбрая, решительная девушка. Когда человечество атакует незримый враг, Мелани рискует всем, чтобы защитить своих близких: Джареда, её брата Джейми и дядю Джеба. Она никогда не сдаётся без боя, и её любовь к Джареду позволила Мелани сохранить самосознание и волю даже тогда, когда в её тело поселилась Душа – Анни.</p>
+<div class="team02_wrap clearfix">
+	<div class="team02_lc">
+		<div class="team02_content">
+		<h4>...В роли Джареда Хоу</h4>
+		<p><b>Джаред</b> — возлюбленный Мелани, которому предстоит тяжёлое испытание: попытаться понять, действительно ли его любимая пережила внедрение инопланетного паразита в её тело, или же Странница пытается обмануть его, используя добытые воспоминания.</p>
+		<p>Сын известного актёра Джереми Айронса («Лолита»), в 2008 году <b>Максимильян Айронс</b> закончил Гилдхоллскую школу музыки и театра, а уже в 2011-м исполнил свою первую главную роль в фильме <u>«Красная шапочка»</u>. Будучи и моделью, и актёром, Макс идеально подходил для подобных романтических фильмов, и потому вскоре после «Красной шапочки» его позвали играть главного героя в «Гостье».</p>
+		<p>Помимо кино Макс Айронс играет и в театре, причём его актёрские таланты снискали успех у критиков — молодой человек был номинирован на несколько престижных наград. А недавно он закончил съёмки в 10-серийном историческом телесериале <u>«Белая королева»</u>, где исполнил роль короля Эдуарда IV.</p>
 		</div>
 	</div>
-	<div class="team01_rc">
-		<div class="team01_content">
-		<div class="team01_wanda noselect">&nbsp;</div>
-		<h4>...В роли Анни (Странницы)</h4>
-		<p><b>Анни</b> – Душа, не похожая на остальные. Её опыт и мудрость помогают Страннице найти общий язык с Мелани и понять, что значит быть человеком. А сблизившись с членами повстанческого движения, Анни неожиданно открывает для себя сильнейшую из человеческих эмоций – любовь.</p>
-		</div>
-	</div>
-	<div class="team01_video_wrap clearfix">
-		<div class="team01_lc"><div class="team01_video"><div style="width: 360px; height: 206px; border: 1px solid #ffab67;"><video id="melaniestryder" class="video-js vjs-default-skin" controls preload="auto" width="360" height="206" poster="/video/melaniestryder.jpg" data-setup="{}"><source src="http://www.hostmovie.ru/video/melaniestryder.mp4" type='video/mp4'></div></div></div>
-		<div class="team01_rc"><div class="team01_video"><div style="width: 360px; height: 206px; border: 1px solid #bee8ef;"><video id="wandererwanda" class="video-js vjs-default-skin" controls preload="auto" width="360" height="206" poster="/video/wandererwanda.jpg" data-setup="{}"><source src="http://www.hostmovie.ru/video/wandererwanda.mp4" type='video/mp4'></div></div></div>
-	</div>
-	<div class="team01_mc">
-		<p>Несмотря на свой юный возраст (ей нет и девятнадцати), рождённая в семье ирландских актёров <b>Сирша Ронан</b> успешно работает в кино уже больше десяти лет. Первая же крупная роль в фильме <u>«Искупление»</u> Джо Райта принесла тринадцатилетней девушке номинацию на «Оскар», и с тех пор она успела сняться в таких крупных фильмах, как <u>«Город Эмбер: Побег»</u>, <u>«Ханна. Совершенное оружие»</u> и <u>«Милые кости»</u>.</p>
-		<p>Сейчас она снимается с Биллом Мюрреем в фильме Веса Андерсона <u>«Отель Будапешт»</u>, а вскоре после «Гостьи» на экраны выйдет драма о вампирах Нила Джордана <u>«Византия»</u> с Сиршей в одной из главных ролей.</p>
+	<div class="team02_video_wrap clearfix">
+		<div class="team02_video"><div style="width: 500px; height: 286px; border: 1px solid #ffab67;"><video id="jaredhowe" class="video-js vjs-default-skin" controls preload="auto" width="500" height="286" poster="/video/jaredhowe.jpg" data-setup="{}"><source src="http://www.hostmovie.ru/video/jaredhowe.mp4" type='video/mp4'></div></div>
 	</div>
 </div>
-
-
-
 
 
 <div class="age_small noselect">&nbsp;</div>

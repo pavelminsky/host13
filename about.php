@@ -25,7 +25,7 @@ $(document).ready(function(){
 <div class="menu noselect">
 	<a id="menu1" class="fadeout" href="/">Главная</a>
 	<a id="menu2" class="fadeout off" href="javascript:void(0)">Новости</a>
-	<a id="menu3" class="fadeout off" href="javascript:void(0)">Книга</a>
+	<a id="menu3" class="fadeout" href="/book/">Книга</a>
 	<a id="menu4" class="fadeout active" href="/about/">Фильм</a>
 	<a id="menu5" class="fadeout" href="/team/">Команда</a>
 	<a id="menu6" class="fadeout" href="/video/">Видео</a>

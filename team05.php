@@ -30,7 +30,7 @@ $(".team_showlist").toggle(
 .vjs-default-skin div.vjs-big-play-button:hover {border: 1px solid #ffa227; -webkit-box-shadow: none !important; -moz-box-shadow: none !important; box-shadow: none !important;}
 </style>
 
-</head><body id="team01">
+</head><body id="team05">
 
 <noscript><style>.dim {display: none;} #counters:hover {bottom: 0;}</style><div style="position: fixed; bottom: 80px; left: 50%; width: 360px; z-index: 9999; margin-left: -180px; font-size: 14px; color: #849091; line-height: 20px; text-align: center; border: 1px solid #849091; background-color: #000000;">В вашем браузере отключен JavaScript</div></noscript>
 <div class="dim">&nbsp;</div>
@@ -43,14 +43,14 @@ $(".team_showlist").toggle(
 <div class="logo_small noselect">&nbsp;</div>
 
 <div class="team_showlist">Команда</div>
-<div class="team_person">Сирша Ронан</div>
+<div class="team_person">Чандлер Кентербери</div>
 
 <div class="team_list" style="display: none;">
-	<a href="/team01/" class="fadeout active">Сирша Ронан</a>
+	<a href="/team01/" class="fadeout">Сирша Ронан</a>
 	<a href="/team02/" class="fadeout">Макс Айронс</a>
 	<a href="/team03/" class="fadeout">Диана Крюгер</a>
 	<a href="/team04/" class="fadeout">Джейк Абель</a>
-	<a href="/team05/" class="fadeout">Чандлер Кентербери</a>
+	<a href="/team05/" class="fadeout active">Чандлер Кентербери</a>
 	<a href="/team06/" class="fadeout">Уильям Хёрт</a>
 	<a href="/team07/" class="fadeout">Фрэнсис Фишер</a>
 	<a href="/teamcrew/" class="fadeout">Эндрю Никкол</a>
@@ -58,34 +58,18 @@ $(".team_showlist").toggle(
 </div>
 
 
-
-<div class="team01_wrap clearfix">
-	<div class="team01_lc">
-		<div class="team01_content">
-		<div class="team01_melanie noselect">&nbsp;</div>
-		<h4>...В роли Мелани Страйдер</h4>
-		<p><b>Мелани</b> – сильная, храбрая, решительная девушка. Когда человечество атакует незримый враг, Мелани рискует всем, чтобы защитить своих близких: Джареда, её брата Джейми и дядю Джеба. Она никогда не сдаётся без боя, и её любовь к Джареду позволила Мелани сохранить самосознание и волю даже тогда, когда в её тело поселилась Душа – Анни.</p>
+<div class="team05_wrap clearfix">
+	<div class="team05_lc">
+		<div class="team05_content">
+		<h4>...В роли Джейми Страйдера, младшего брата Мелани</h4>
+		<p><b>Чандлер Кентербери</b> – один из самых ярких и интересных несовершеннолетних актёров последнего времени. Богатое воображение и поразительная эмоциональность позволили ему стать одним из самых разноплановых артистов Голливуда. Помимо актёрской игры, Чандлер увлекается занимается фехтованием, баскетболом и бейсболом.</p>
+		<p>Самыми известными его ролями до съёмок в «Гостье» были роли «старого» Бенджамина Баттона в фильме <u>«Загадочная история Бенджамина Баттона»</u> с Бредом Питтом и одного из главных героев в фильме-катастрофе <u>«Знамение»</u> с Николасом Кейджем. А после «Гостьи» в прокат попадут такие фильмы с Чандлером в главной роли, как <u>«Остров козлов»</u>, <u>«Пластиковый Иисус»</u> и <u>«Когда поют ангелы»</u>.</p>
 		</div>
 	</div>
-	<div class="team01_rc">
-		<div class="team01_content">
-		<div class="team01_wanda noselect">&nbsp;</div>
-		<h4>...В роли Анни (Странницы)</h4>
-		<p><b>Анни</b> – Душа, не похожая на остальные. Её опыт и мудрость помогают Страннице найти общий язык с Мелани и понять, что значит быть человеком. А сблизившись с членами повстанческого движения, Анни неожиданно открывает для себя сильнейшую из человеческих эмоций – любовь.</p>
-		</div>
-	</div>
-	<div class="team01_video_wrap clearfix">
-		<div class="team01_lc"><div class="team01_video"><div style="width: 360px; height: 206px; border: 1px solid #ffab67;"><video id="melaniestryder" class="video-js vjs-default-skin" controls preload="auto" width="360" height="206" poster="/video/melaniestryder.jpg" data-setup="{}"><source src="http://www.hostmovie.ru/video/melaniestryder.mp4" type='video/mp4'></div></div></div>
-		<div class="team01_rc"><div class="team01_video"><div style="width: 360px; height: 206px; border: 1px solid #bee8ef;"><video id="wandererwanda" class="video-js vjs-default-skin" controls preload="auto" width="360" height="206" poster="/video/wandererwanda.jpg" data-setup="{}"><source src="http://www.hostmovie.ru/video/wandererwanda.mp4" type='video/mp4'></div></div></div>
-	</div>
-	<div class="team01_mc">
-		<p>Несмотря на свой юный возраст (ей нет и девятнадцати), рождённая в семье ирландских актёров <b>Сирша Ронан</b> успешно работает в кино уже больше десяти лет. Первая же крупная роль в фильме <u>«Искупление»</u> Джо Райта принесла тринадцатилетней девушке номинацию на «Оскар», и с тех пор она успела сняться в таких крупных фильмах, как <u>«Город Эмбер: Побег»</u>, <u>«Ханна. Совершенное оружие»</u> и <u>«Милые кости»</u>.</p>
-		<p>Сейчас она снимается с Биллом Мюрреем в фильме Веса Андерсона <u>«Отель Будапешт»</u>, а вскоре после «Гостьи» на экраны выйдет драма о вампирах Нила Джордана <u>«Византия»</u> с Сиршей в одной из главных ролей.</p>
+	<div class="team05_video_wrap clearfix">
+		<div class="team05_video"><div style="width: 500px; height: 286px; border: 1px solid #cf6d21;"><video id="choosetofightOne" class="video-js vjs-default-skin" controls preload="auto" width="500" height="286" poster="/video/choosetofight.jpg" data-setup="{}"><source src="http://www.hostmovie.ru/video/choosetofight.mp4" type='video/mp4'></div></div>
 	</div>
 </div>
-
-
-
 
 
 <div class="age_small noselect">&nbsp;</div>
