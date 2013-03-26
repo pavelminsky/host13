@@ -53,40 +53,11 @@ a:hover {color: #d7ecfa; text-shadow: 0px -1px 8px #8be8ff;}
 
 
 
-/* Section-specific */
+/* Index */
 body#index {background-color: #000000;}
 body#index .menu {background-color: #1c323e;}
 body#index .footer {color: #5b6367; background-color: #000000; border-top: 1px solid #1b2021;}
 
-body#book {min-height: 850px; background-color: #834017; background-image: url('/images/bg_book.jpg'); background-position: center top; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
-body#book .menu {background-color: #7a3900;}
-body#book .footer {color: #918a7e; background-color: #7a3900; border-top: 1px solid #85460e;}
-
-body#about {min-height: 900px; background-color: #1f0b04; background-image: url('/images/bg_about.jpg'); background-position: center top; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
-body#about .menu {background-color: #2d1106;}
-body#about .footer {color: #66605a; background-color: #130700; border-top: 1px solid #27160c;}
-
-body#team {min-height: 840px; background-color: #000822; background-image: url('/images/bg_team.jpg'); background-position: left top; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
-body#team .menu {background-color: #25314f;}
-body#team .footer {color: #4c536a; background-color: #000719; border-top: 1px solid #0c152e;}
-
-
-body#team01 {min-height: 840px; background-color: #000000; background-image: url('/images/bg_team01.jpg'); background-position: center top; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
-body#team01 .menu {background-color: #5d1600;}
-body#team01 .footer {color: #4c5154; background-color: #000000; border-top: 1px solid #181f25;}
-
-
-body#video {background-color: #000000;}
-body#video .menu {background-color: #000000;}
-body#video .footer {color: #535e68; background-color: #000000; border-top: 1px solid #000000;}
-
-body#gallery {min-height: 850px; background-color: #581705; background-image: url('/images/bg_gallery.jpg'); background-position: right top; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
-body#gallery .menu {background-color: #2a1400;}
-body#gallery .footer {color: #918a7e; background-color: #541c00; border-top: 1px solid #682d0f;}
-
-
-
-/* Index */
 .index_wrap {position: absolute; top: 0px; left: 0; width: 100%; min-width: 970px; height: 100%; min-height: 600px; overflow: hidden; z-index: 1; margin: 0 auto; text-align: center; background-image: url('/images/bg_index.jpg'); background-position: center top; background-repeat: no-repeat; background-size: contain;}
 
 .logo_big, .logo_big_glow {position: absolute; right: 100px; top: 6.5%; width: 50%; max-width: 800px; height: 600px; background-position: center top; background-repeat: no-repeat;}
@@ -99,7 +70,17 @@ body#gallery .footer {color: #918a7e; background-color: #541c00; border-top: 1px
 
 
 
+/* Book */
+body#book {min-height: 850px; background-color: #834017; background-image: url('/images/bg_book.jpg'); background-position: center top; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
+body#book .menu {background-color: #7a3900;}
+body#book .footer {color: #918a7e; background-color: #7a3900; border-top: 1px solid #85460e;}
+
+
+
 /* About */
+body#about {min-height: 900px; background-color: #1f0b04; background-image: url('/images/bg_about.jpg'); background-position: center top; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
+body#about .menu {background-color: #2d1106;}
+body#about .footer {color: #66605a; background-color: #130700; border-top: 1px solid #27160c;}
 body#about .logo_small {position: absolute; top: 0; right: 0;}
 
 .about {position: absolute; right: 0; top: 40px; width: 56%; min-width: 500px; z-index: 3; margin: 0 40px 20px 20px; padding: 160px 0 50px 0; color: #ffcb90; text-align: left; text-shadow: 0 1px 2px #3e1500;}
@@ -121,10 +102,14 @@ body#about .logo_small {position: absolute; top: 0; right: 0;}
 .about p i {display: inline-block; padding-left: 5px; padding-right: 5px; margin-right: 2px; font-weight: 300; font-style: normal; text-decoration: none; text-shadow: none;}
 .about p.dos i {line-height: 22px; color: #1f0b04; background-color: #e6c1a8;}
 .about p.tres i {line-height: 22px; color: #1f0b04; background-color: #deaf8f;}
+.about p.cuatro i {line-height: 24px; color: #1f0b04; background-color: #d9996e;}
 
 
 
 /* Team */
+body#team {min-height: 840px; background-color: #000822; background-image: url('/images/bg_team.jpg'); background-position: left top; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
+body#team .menu {background-color: #25314f;}
+body#team .footer {color: #4c536a; background-color: #000719; border-top: 1px solid #0c152e;}
 body#team .logo_small {position: absolute; top: 40px; right: 40px; z-index: 8;}
 
 .team_main, .team_glow {position: absolute; top: 70px; left: 58%; width: 600px; height: 900px; margin-left: -300px;}
@@ -133,9 +118,7 @@ body#team .logo_small {position: absolute; top: 40px; right: 40px; z-index: 8;}
 
 a.team_link_01 {display: block; position: absolute; top: 230px; left: 210px; z-index: 8; width: 170px; height: 200px; text-decoration: none; }
 div.team_hover_01 {display: block; position: absolute; top: 195px; left: 172px; z-index: 7; width: 254px; height: 254px; background: url('/images/team_hover_01.png') center center no-repeat; opacity: 0; -moz-opacity: 0; -khtml-opacity: 0; filter: alpha(opacity=0);}
-
 a.team_link_02, a.team_link_03, a.team_link_04, a.team_link_05, a.team_link_06, a.team_link_07, a.team_link_08, a.team_link_09 {display: block; position: absolute; z-index: 8; text-decoration: none;}
-
 a.team_link_02 {top: 230px; left: 10px; width: 150px; height: 160px;}
 a.team_link_03 {top: 150px; left: 440px; width: 130px; height: 130px;}
 a.team_link_04 {top: 320px; left: 430px; width: 150px; height: 160px;}
@@ -146,7 +129,6 @@ a.team_link_08 {top: 590px; left: 20px; width: 150px; height: 160px;}
 a.team_link_09 {top: 650px; left: 240px; width: 130px; height: 160px;}
 
 .team_glow_02, .team_glow_03, .team_glow_04, .team_glow_05, .team_glow_06, .team_glow_07, .team_glow_08, .team_glow_09 {position: absolute; opacity: 0; -moz-opacity: 0; -khtml-opacity: 0; filter: alpha(opacity=0); background-position: center center; background-repeat: no-repeat;}
-
 .team_glow_02 {top: 207px; left: -1px; width: 182px; height: 182px; background-image: url('/images/team_glow_m.png');}
 .team_glow_03 {top: 136px; left: 436px; width: 144px; height: 144px; background-image: url('/images/team_glow_s.png');}
 .team_glow_04 {top: 297px; left: 415px; width: 182px; height: 182px; background-image: url('/images/team_glow_m.png');}
@@ -156,14 +138,90 @@ a.team_link_09 {top: 650px; left: 240px; width: 130px; height: 160px;}
 .team_glow_08 {top: 610px; left: 7px; width: 144px; height: 144px; background-image: url('/images/team_glow_s.png');}
 .team_glow_09 {top: 668px; left: 236px; width: 144px; height: 144px; background-image: url('/images/team_glow_s.png');}
 
+.team_showlist {display: inline-block; cursor: pointer; position: absolute; top: 78px; left: 40px; z-index: 9; font-size: 20px; font-weight: 300;}
+.team_person {position: absolute; top: 115px; left: 39px; font-size: 42px; line-height: 46px; font-weight: 400; text-shadow: 0 1px 1px #240a00;}
+.team_list {position: absolute; top: 65px; left: 25px; padding: 45px 20px 15px 15px; z-index: 8; font-size: 14px; line-height: 30px; background-color: #1e2f3e; border: 1px solid #a7c0cb; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.40); -moz-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.40); -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.40);}
+.team_list a {display: block;}
+.team_list a.active, .team_list a.active:hover {cursor: default; color: #ffe7c5; font-weight: 400; text-decoration: none; text-shadow: none;}
+
+
+
+/* Team01 */
+body#team01 {min-height: 840px; background-color: #000000; background-image: url('/images/bg_team01.jpg'); background-position: center top; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
+body#team01 .menu {background-color: #5d1600;}
+body#team01 .footer {color: #4c5154; background-color: #000000; border-top: 1px solid #181f25;}
+body#team01 .logo_small {position: absolute; top: 40px; right: 40px; z-index: 8;}
+body#team01 .team_showlist {color: #ffcb7d; border-bottom: 1px dotted #ffcb7d;}
+body#team01 .team_showlist:hover {color: #ffdb9b; border-bottom: 1px dotted #ffdb9b;}
+body#team01 .team_person {color: #ffe7c5;}
+
+.team01_wrap {position: absolute; top: 300px; left: 0; width: 100%; min-width: 900px; font-size: 16px; line-height: 24px; text-shadow: 0px 1px 2px #261e17;}
+.team01_wrap p {padding-bottom: 10px;}
+.team01_wrap b {font-weight: 400;}
+.team01_wrap u {text-decoration: none; text-shadow: 0px 1px 8px #ff8f49;}
+
+.team01_content {padding: 0 40px 20px 40px;}
+
+.team01_melanie, .team01_wanda {width: 100px; height: 100px; margin: 0 auto 10px auto; background-image: url('/images/team01_bubble.png'); background-repeat: no-repeat;}
+.team01_melanie {background-position: 0 0;}
+.team01_wanda {background-position: 0 -100px;}
+
+.team01_lc h4, .team01_rc h4 {padding-bottom: 10px; font-size: 22px; font-weight: 400; text-align: center;}
+.team01_lc h4 {color: #ffc363;}
+.team01_rc h4 {color: #bee8ef;}
+
+.team01_lc {float: left; width: 48%; min-width: 440px; color: #ffe7b4;}
+.team01_rc {float: right; width: 48%; min-width: 440px; color: #c1e4f7;}
+.team01_mc {width: 60%; padding: 20px 0 80px 0; margin: 0 auto; clear: both; color: #e0e5e6;}
+
+.team01_video_wrap {width: 100%; clear: both;}
+.team01_video {width: 360px; margin: 10px auto 10px auto; text-align: center; background-color: pink;}
+
+
+
+/* Teamcrew */
+body#teamcrew {min-height: 840px; background-color: #2d0f09; background-image: url('/images/bg_teamcrew.jpg'); background-position: center top; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
+body#teamcrew .menu {background-color: #9c4700;}
+body#teamcrew .footer {color: #824c36; background-color: #1c0800; border-top: 1px solid #341407;}
+body#teamcrew .logo_small {position: absolute; top: 40px; right: 40px; z-index: 8;}
+body#teamcrew .team_showlist {color: #ffcb7d; border-bottom: 1px dotted #ffcb7d;}
+body#teamcrew .team_showlist:hover {color: #ffdb9b; border-bottom: 1px dotted #ffdb9b;}
+body#teamcrew .team_person {color: #ffe7c5;}
+
+.teamcrew_wrap {position: absolute; top: 250px; left: 0; width: 100%; min-width: 900px; padding-bottom: 70px; font-size: 16px; line-height: 24px; text-shadow: 0px 1px 2px #261e17;}
+.teamcrew_wrap p {padding-bottom: 10px;}
+.teamcrew_wrap b {font-weight: 400;}
+.teamcrew_lc u {text-decoration: none; text-shadow: 0px 1px 8px #ff8f49;}
+.teamcrew_rc u {text-decoration: none; text-shadow: 0px 1px 8px #ff8f49;}
+
+.teamcrew_content {padding: 0 40px 20px 40px;}
+
+.teamcrew_niccol, .teamcrew_meyer {width: 180px; height: 180px; margin: 0 auto 10px auto; background-image: url('/images/teamcrew_bubble.png'); background-repeat: no-repeat;}
+.teamcrew_niccol {background-position: 0 0;}
+.teamcrew_meyer {background-position: 0 -180px;}
+
+.teamcrew_lc h4, .teamcrew_rc h4 {padding-bottom: 10px; font-size: 22px; font-weight: 400; text-align: center;}
+.teamcrew_lc h4 {color: #ffbf7b;}
+.teamcrew_rc h4 {color: #ffce99;}
+
+.teamcrew_lc {float: left; width: 48%; min-width: 440px; color: #f6dba1;}
+.teamcrew_rc {float: right; width: 48%; min-width: 440px; color: #ffeeca;}
+
+
 
 
 /* Video */
+body#video {background-color: #000000;}
+body#video .menu {background-color: #000000;}
+body#video .footer {color: #535e68; background-color: #000000; border-top: 1px solid #000000;}
 .trailer_wrap {position: absolute; top: 64px; width: 100%; height: 88%; margin: 0 auto 0 auto; z-index: 2; text-align: center;}
 
 
 
 /* Gallery */
+body#gallery {min-height: 850px; background-color: #581705; background-image: url('/images/bg_gallery.jpg'); background-position: right top; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
+body#gallery .menu {background-color: #2a1400;}
+body#gallery .footer {color: #918a7e; background-color: #541c00; border-top: 1px solid #682d0f;}
 body#gallery .logo_small {position: absolute; top: 0; left: 20%;}
 
 .gallery {position: absolute; left: 0; top: 40px; width: 62%; min-width: 500px; z-index: 3; margin: 0 40px 10px 10px; padding: 180px 0 70px 20px; color: #ffcb90; text-align: left; text-shadow: 0 1px 2px #3e1500;}
