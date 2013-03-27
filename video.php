@@ -16,9 +16,26 @@
 .vjs-progress-control {height: 5px !important; border: none !important; background: transparent !important;}
 .vjs-default-skin .vjs-progress-holder .vjs-load-progress {border-radius: 0 !important; -moz-border-radius: 0 !important; -webkit-border-radius: 0 !important;}
 .vjs-default-skin .vjs-progress-holder {height: 5px !important; border-radius: 0 !important; -moz-border-radius: 0 !important; -webkit-border-radius: 0 !important; background: transparent !important;}
-.vjs-default-skin .vjs-big-play-button {display: none; z-index: 2; position: absolute; top: 50%; left: 50%; width: 8.0em; height: 8.0em; margin: -42px 0 0 -42px; text-align: center; vertical-align: center; cursor: pointer !important; border: 1px solid #dbeaf2; opacity: 0.95; background: #000000; -webkit-box-shadow: none !important; -moz-box-shadow: none !important; box-shadow: none !important;}
-.vjs-default-skin div.vjs-big-play-button:hover {display: none; border: 1px solid #ffa227; -webkit-box-shadow: none !important; -moz-box-shadow: none !important; box-shadow: none !important;}
+.vjs-default-skin .vjs-big-play-button {
+<?php
+$browser = $_SERVER['HTTP_USER_AGENT'];
+if (strstr($browser,'iPad') || strstr($browser,'iPhone') || strstr($browser,'Android'))
+	echo 'display: block;';
+else
+	echo 'display: none;';
+?>
+z-index: 2; position: absolute; top: 50%; left: 50%; width: 8.0em; height: 8.0em; margin: -42px 0 0 -42px; text-align: center; vertical-align: center; cursor: pointer !important; border: 1px solid #dbeaf2; opacity: 0.95; background: #000000; -webkit-box-shadow: none !important; -moz-box-shadow: none !important; box-shadow: none !important;}
+.vjs-default-skin div.vjs-big-play-button:hover {
+<?php
+$browser = $_SERVER['HTTP_USER_AGENT'];
+if (strstr($browser,'iPad') || strstr($browser,'iPhone') || strstr($browser,'Android'))
+	echo 'display: block;';
+else
+	echo 'display: none;';
+?>
+border: 1px solid #ffa227; -webkit-box-shadow: none !important; -moz-box-shadow: none !important; box-shadow: none !important;}
 </style>
+
 
 </head><body id="video">
 
@@ -27,7 +44,7 @@
 
 <div class="menu noselect">
 	<a id="menu1" class="fadeout" href="/">Главная</a>
-	<a id="menu2" class="fadeout off" href="javascript:void(0)">Новости</a>
+	<a id="menu2" class="fadeout" href="/news/">Новости</a>
 	<a id="menu3" class="fadeout" href="/book/">Книга</a>
 	<a id="menu4" class="fadeout" href="/about/">Фильм</a>
 	<a id="menu5" class="fadeout" href="/team/">Команда</a>

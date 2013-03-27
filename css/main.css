@@ -70,13 +70,38 @@ body#index .footer {color: #5b6367; background-color: #000000; border-top: 1px s
 
 
 
+/* News */
+body#news {min-height: 900px; background-color: #823f16; background-image: url('/images/bg_news.jpg'); background-position: left top; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
+body#news .menu {background-color: #7d410d;}
+body#news .footer {color: #6d4b29; background-color: #421a02; border-top: 1px solid #692f0c;}
+body#news .logo_small {position: absolute; top: 40px; right: 40px;}
+
+.news_wrap {position: absolute; right: 0; top: 40px; width: 44%; min-width: 450px; z-index: 3; margin: 0 40px 20px 20px; padding: 160px 0 50px 0; color: #ffe6c1; text-align: left; text-shadow: 0 1px 2px #3e1500;}
+
+a.gallery_news, a.videos_news {display: inline-block; overflow: hidden; text-align: center; vertical-align: top; margin: 5px 5px 5px 0;}
+body#news .newsbox {display: block; font-size: 16px; line-height: 24px; font-weight: 300; color: #fff6d5; text-shadow: 0px 1px 2px #291807;}
+body#news .newsdate {font-size: 16px; font-weight: 400; color: #170900; text-shadow: 0px 1px 2px #ffe8b0;}
+body#news .newshd {position: relative; display: inline-block; padding-top: 5px; margin-bottom: 5px; font-size: 28px; color: #170900; line-height: 30px; text-shadow: 0px 1px 2px #ffe8b0;}
+body#news .newshd:hover {color: #170900;}
+body#news .newsList ul li {margin-bottom: 40px; padding-bottom: 5px; border-bottom: 1px dotted #ddc995;}
+body#news .newsbox a, body#news .newsbox a:visited {color: #fff0ba;}
+body#news .newsbox a:hover {color: #fffad0; text-shadow: none;}
+body#news .newsbox p {padding: 5px 10px 5px 0px;}
+body#news .newsbox b {font-weight: 400;}
+body#news .newsbox i {font-style: normal;}
+body#news .newsnote {padding: 10px 10px 10px 0; font-size: 13px; color: #f7b968;}
+body#news a.gallery_news, body#news a.videos_news {border: 1px solid #edd8a0;}
+body#news a.gallery_news:hover, body#news a.videos_news:hover {border: 1px solid #ffebb5;}
+
+
+
 /* Book */
 body#book {min-height: 850px; background-color: #b1ad95; background-image: url('/images/bg_book.jpg'); background-position: left top; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
 body#book .menu {background-color: #d3b99d;}
 body#book .footer {color: #918a7e; background-color: #636153; border-top: 1px solid #848271;}
 body#book .logo_dark {position: absolute; top: 110px; left: 220px; z-index: 8; width: 320px; height: 140px; background: url('/images/logo_dark_date.png') center center no-repeat;}
 
-.book_cover {position: absolute; top: 65px; left: 42px; width: 170px; height: 249px; background: url('/images/book.png') center center no-repeat;}
+.book_cover {position: absolute; top: 65px; left: 42px; width: 170px; height: 258px; background: url('/images/book.png') center center no-repeat;}
 
 .book_content {position: absolute; left: 45px; top: 350px; z-index: 3; width: 44%; min-width: 500px; padding-bottom: 70px;}
 .book_content b {font-weight: 400; text-decoration: none; text-shadow: 0px 1px 8px #ffd58b;}

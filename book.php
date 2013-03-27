@@ -10,7 +10,7 @@
 
 <div class="menu noselect">
 	<a id="menu1" class="fadeout" href="/">Главная</a>
-	<a id="menu2" class="fadeout off" href="javascript:void(0)">Новости</a>
+	<a id="menu2" class="fadeout" href="/news/">Новости</a>
 	<a id="menu3" class="fadeout active" href="/book/">Книга</a>
 	<a id="menu4" class="fadeout" href="/about/">Фильм</a>
 	<a id="menu5" class="fadeout" href="/team/">Команда</a>
